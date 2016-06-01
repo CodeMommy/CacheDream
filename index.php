@@ -24,6 +24,9 @@ $site['description'] = '';
             border-bottom: none;
             margin-bottom: 0;
         }
+        .table{
+            margin-bottom: 0;
+        }
     </style>
     <div class="container-fluid" style="padding:0;">
         <table class="table table-striped table-hover">
