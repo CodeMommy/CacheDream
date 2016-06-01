@@ -11,3 +11,13 @@ h3 {
     color: #fff;
     padding: 10px;
 }
+
+pre {
+    border-radius: 0;
+}
+
+.well {
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
