@@ -19,18 +19,18 @@
 <div style="padding:10px;">
     <p>方法一：修改全局配置</p>
 <pre>
-composer config -g repo.packagist composer http://packagist.mirrors.mom
+composer config -g repo.packagist composer http://packagist.cdn.mirrors.mom
 </pre>
     <p>方法二：项目根目录执行命令</p>
 <pre>
-composer config repo.packagist composer http://packagist.mirrors.mom
+composer config repo.packagist composer http://packagist.cdn.mirrors.mom
 </pre>
     <p>方法三：在<code>composer.json</code>的根节点中添加如下代码：</p>
 <pre>
 "repositories": {
     "packagist": {
         "type": "composer",
-        "url": "http://packagist.mirrors.mom"
+        "url": "http://packagist.cdn.mirrors.mom"
     }
 }
 </pre>
