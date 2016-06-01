@@ -22,6 +22,7 @@ $site['description'] = '';
     <style>
         .navbar {
             border-bottom: none;
+            margin-bottom: 0;
         }
     </style>
     <div class="container-fluid" style="padding:0;">

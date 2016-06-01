@@ -7,12 +7,14 @@ $site['description'] = 'Mirrors of Packagist. ';
 <?php include_once('../include/header.php'); ?>
     <div class="container-fluid">
 
-        <h2>Mirrors of Packagist</h2>
-        <p>The PHP Package Repository</p>
-        <p>
-            <a target="_blank" title="Website" href="https://packagist.org/">Website</a> -
-            <a target="_blank" title="Official" href="https://packagist.org/">Official</a>
-        </p>
+        <div class="well">
+            <h2>Mirrors of Packagist</h2>
+            <p>The PHP Package Repository</p>
+            <p>
+                <a target="_blank" title="Website" href="https://packagist.org/">Website</a> -
+                <a target="_blank" title="Official" href="https://packagist.org/">Official</a>
+            </p>
+        </div>
 
         <h3>Mirrors from Composer中文网</h3>
         <p>方法一：修改全局配置</p>

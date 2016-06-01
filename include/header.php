@@ -2,6 +2,7 @@
 $site = isset($site) ? $site : array();
 $static = '/static';
 $static = '//static.shareany.com/product/mirrors';
+$staticVersion = '1';
 ?>
 <!DOCTYPE html>
 <html>
@@ -19,9 +20,9 @@ $static = '//static.shareany.com/product/mirrors';
     <meta name="author" content="ShareAny.com">
     <meta name="keywords" content="<?php echo $site['keywords']; ?>Mirrors,Mirrors.mom">
     <meta name="description" content="<?php echo $site['description']; ?>Mirrors.mom is an open source project that provide mirrors service for developers.">
-    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="<?php echo $static; ?>/icon/favicon.ico">
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="<?php echo $static; ?>/icon/favicon.ico?V=<?php echo $staticVersion; ?>">
     <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php echo $static; ?>/style/theme.css">
+    <link rel="stylesheet" href="<?php echo $static; ?>/style/theme.css?V=<?php echo $staticVersion; ?>">
 </head>
 
 <body>

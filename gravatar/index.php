@@ -7,12 +7,14 @@ $site['description'] = 'Mirrors of Gravatar. ';
 <?php include_once('../include/header.php'); ?>
     <div class="container-fluid">
 
-        <h2>Mirrors of Gravatar</h2>
-        <p>Globally Recognized Avatar</p>
-        <p>
-            <a target="_blank" title="Website" href="http://www.gravatar.com/">Website</a> -
-            <a target="_blank" title="Official" href="http://www.gravatar.com/">Official</a>
-        </p>
+        <div class="well">
+            <h2>Mirrors of Gravatar</h2>
+            <p>Globally Recognized Avatar</p>
+            <p>
+                <a target="_blank" title="Website" href="http://www.gravatar.com/">Website</a> -
+                <a target="_blank" title="Official" href="http://www.gravatar.com/">Official</a>
+            </p>
+        </div>
 
         <h3>Mirrors from Official</h3>
         <p>把获取的头像地址中<code>*.gravatar.com</code>替换成<code>cdn.mirrors.mom/gravatar</code></p>
