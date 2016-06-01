@@ -2,7 +2,7 @@
 $site = isset($site) ? $site : array();
 $static = '/static';
 $static = '//static.shareany.com/product/mirrors';
-$staticVersion = '6';
+$staticVersion = '7';
 ?>
 <!DOCTYPE html>
 <html>

@@ -40,3 +40,7 @@ code {
     box-shadow: none;
     padding: 9px 19px;
 }
+
+.navbar-toggle {
+    border-radius: 0;
+}
