@@ -16,8 +16,18 @@ pre {
     border-radius: 0;
 }
 
+code {
+    margin: 0 5px;
+    border-radius: 0;
+}
+
+.alert {
+    border-radius: 0;
+}
+
 .well {
     border-radius: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
+    padding: 9px 19px;
 }
