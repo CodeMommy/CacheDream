@@ -6,10 +6,15 @@
     display: none;
 }
 
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 10px;
+}
+
 h3 {
     background-color: #1e82cc;
     color: #fff;
     padding: 10px;
+    font-size: 18px;
 }
 
 pre {
