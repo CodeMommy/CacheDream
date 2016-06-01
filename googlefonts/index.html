@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Mirrors of Packagist</title>
+    <title>Mirrors of Google Fonts</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,22 +17,14 @@
 
 <body>
 <div style="padding:10px;">
-    <p>方法一：修改全局配置</p>
+    <p>把获取的字体地址中<code>fonts.googleapis.com</code>替换成<code>www.mirrors.mom/googlefontsmirror/</code></p>
+    <p>例如，从Google Fonts获取的地址是：</p>
 <pre>
-composer config -g repo.packagist composer http://packagist.mirrors.mom
+https://fonts.googleapis.com/css?family=Bree+Serif
 </pre>
-    <p>方法二：项目根目录执行命令</p>
+    <p>替换后的地址就是：</p>
 <pre>
-composer config repo.packagist composer http://packagist.mirrors.mom
-</pre>
-    <p>方法三：在<code>composer.json</code>的根节点中添加如下代码：</p>
-<pre>
-"repositories": {
-    "packagist": {
-        "type": "composer",
-        "url": "http://packagist.mirrors.mom"
-    }
-}
+http://www.mirrors.mom/googlefontsmirror/css?family=Bree+Serif
 </pre>
 </div>
 </body>
