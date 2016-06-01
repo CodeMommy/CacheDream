@@ -14,7 +14,7 @@
     font-size: 24px;
 }
 
-h3 {
+.h3, h3 {
     background-color: #1e82cc;
     color: #fff;
     padding: 10px;
