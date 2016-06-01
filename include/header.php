@@ -31,7 +31,7 @@ $staticVersion = '1';
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
             <a class="navbar-brand" href="/" title="Mirrors.mom">
-                <img alt="Mirrors.mom" src="<?php echo $static; ?>/picture/logo.png">
+                <img alt="Mirrors.mom" src="<?php echo $static; ?>/picture/logo.png?V=<?php echo $staticVersion; ?>">
             </a>
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                     data-target="#bs-example-navbar-collapse-1"
