@@ -1,14 +1,14 @@
 <?php
 $site = array();
-$site['title'] = 'Bintray SBT Mirrors';
-$site['keywords'] = 'Mirrors of Bintray SBT,';
-$site['description'] = 'Mirrors of Bintray SBT. ';
+$site['title'] = 'SBT Mirrors';
+$site['keywords'] = 'Mirrors of SBT,';
+$site['description'] = 'Mirrors of SBT. ';
 ?>
 <?php include_once('../include/header.php'); ?>
     <div class="container-fluid">
 
         <div class="well">
-            <h2>Mirrors of Bintray SBT</h2>
+            <h2>Mirrors of SBT</h2>
             <p>Simple Build Tool</p>
             <p>
                 <a target="_blank" title="Website" href="http://www.scala-sbt.org/">Website</a> -
@@ -18,7 +18,7 @@ $site['description'] = 'Mirrors of Bintray SBT. ';
 
         <h3>Mirrors from Official</h3>
 <pre>
-<a href="http://cdn.mirrors.shareany.com/sbt-bintray/" target="_blank" title="SBT">http://cdn.mirrors.shareany.com/sbt-bintray/</a>
+Bintray：<a href="http://cdn.mirrors.shareany.com/sbt/bintray/" target="_blank" title="SBT">http://cdn.mirrors.shareany.com/sbt/bintray/</a>
 </pre>
 
     </div>
