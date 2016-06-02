@@ -22,7 +22,7 @@ $site['description'] = 'Mirrors of PIP. ';
 </pre>
         <p>方法一：手动指定镜像地址（注意后面带个simple）</p>
 <pre>
-pip install web.py -i http://cdn.mirrors.shareany.com/pypi/simple --trusted-host cdn.mirrors.shareany.com
+pip install flask -i http://cdn.mirrors.shareany.com/pypi/simple --trusted-host cdn.mirrors.shareany.com
 </pre>
         <p>方法二：全局修改。修改<code>pip.conf</code>或<code>pip.ini</code>文件</p>
 <pre>
