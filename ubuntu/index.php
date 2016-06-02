@@ -24,7 +24,7 @@ $site['description'] = 'Mirrors of Ubuntu. ';
 
         <h3>Mirrors in Mainland China</h3>
         <p>
-            <a target="_blank" title="163" href="http://mirrors.163.com/ubuntu/">163</a> -
+            <a target="_blank" title="NetEase" href="http://mirrors.163.com/ubuntu/">NetEase</a> -
             <a target="_blank" title="Sohu" href="http://mirrors.sohu.com/ubuntu/">Sohu</a> -
             <a target="_blank" title="USTC" href="http://mirrors.ustc.edu.cn/ubuntu/">USTC</a>
         </p>

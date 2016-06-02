@@ -16,6 +16,7 @@ array_push($projects['frontend']['projects'], array('name' => 'Baidu TTS', 'url'
 array_push($projects['frontend']['projects'], array('name' => 'Gravatar', 'url' => '/gravatar/', 'about' => 'Globally Recognized Avatar'));
 
 array_push($projects['linux']['projects'], array('name' => 'Ubuntu', 'url' => '/ubuntu/', 'about' => 'Ubuntu is an open source software platform that runs everywhere from the smartphone, the tablet and the PC to the server and the cloud'));
+array_push($projects['linux']['projects'], array('name' => 'CentOS', 'url' => '/centos/', 'about' => 'The CentOS Project is a community-driven free software effort focused on delivering a robust open source ecosystem'));
 array_push($projects['linux']['projects'], array('name' => 'Deepin', 'url' => '/deepin/', 'about' => '深度操作系统'));
 ?>
 <?php
