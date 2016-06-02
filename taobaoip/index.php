@@ -23,7 +23,24 @@ http://cdn.mirrors.shareany.com/taobaoip/58.213.35.85
 </pre>
         <p>接口结果是：</p>
 <pre>
-
+{
+    "code": 0,
+    "data": {
+        "country": "中国",
+        "country_id": "CN",
+        "area": "华东",
+        "area_id": "300000",
+        "region": "江苏省",
+        "region_id": "320000",
+        "city": "南京市",
+        "city_id": "320100",
+        "county": "",
+        "county_id": "-1",
+        "isp": "电信",
+        "isp_id": "100017",
+        "ip": "58.213.35.85"
+    }
+}
 </pre>
 
     </div>
