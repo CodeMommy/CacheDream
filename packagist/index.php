@@ -1,14 +1,14 @@
 <?php
 $site = array();
-$site['title'] = 'Mirrors of Packagist';
-$site['keywords'] = 'Mirrors of Packagist,';
-$site['description'] = 'Mirrors of Packagist. ';
+$site['title'] = 'Mirrors of Packagist (Composer)';
+$site['keywords'] = 'Mirrors of Packagist (Composer),';
+$site['description'] = 'Mirrors of Packagist (Composer). ';
 ?>
 <?php include_once('../include/header.php'); ?>
     <div class="container-fluid">
 
         <div class="well">
-            <h2>Mirrors of Packagist</h2>
+            <h2>Mirrors of Packagist (Composer)</h2>
             <p>The PHP Package Repository</p>
             <p>
                 <a target="_blank" title="Website" href="https://packagist.org/">Website</a> -
