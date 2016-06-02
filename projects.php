@@ -14,7 +14,7 @@ array_push($projects['package']['projects'], array('name' => 'SBT', 'url' => '/m
 
 array_push($projects['frontend']['projects'], array('name' => 'jQuery', 'url' => '/mirrors/jquery/', 'about' => 'jQuery is a fast, small, and feature-rich JavaScript library'));
 array_push($projects['frontend']['projects'], array('name' => 'Google Fonts', 'url' => '/mirrors/google-fonts/', 'about' => 'GoogleFonts.com has all the most relevant and up-to-date Google Fonts news and information'));
-array_push($projects['frontend']['projects'], array('name' => 'Google Hosted Libraries (Google AJAX)', 'url' => '/mirrors/google-ajax/', 'about' => 'Google Hosted Libraries (Google AJAX)'));
+array_push($projects['frontend']['projects'], array('name' => 'Google Hosted Libraries (Google AJAX)', 'url' => '/mirrors/google-hosted-libraries/', 'about' => 'Google Hosted Libraries (Google AJAX)'));
 array_push($projects['frontend']['projects'], array('name' => 'Baidu TTS', 'url' => '/mirrors/baidu-tts/', 'about' => 'Engine of text to audio from Baidu Fanyi'));
 array_push($projects['frontend']['projects'], array('name' => 'QR Generator', 'url' => '/mirrors/qr-generator/', 'about' => 'QR Code Generator'));
 array_push($projects['frontend']['projects'], array('name' => 'Taobao IP', 'url' => '/mirrors/taobao-ip/', 'about' => 'Taobao IP'));
