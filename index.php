@@ -14,6 +14,7 @@ array_push($projects['frontend']['projects'], array('name' => 'Google Fonts', 'u
 array_push($projects['frontend']['projects'], array('name' => 'Google Hosted Libraries (Google AJAX)', 'url' => '/googleajax/', 'about' => 'Google Hosted Libraries (Google AJAX)'));
 array_push($projects['frontend']['projects'], array('name' => 'Baidu TTS', 'url' => '/baidutts/', 'about' => 'Engine of text to audio from Baidu Fanyi'));
 array_push($projects['frontend']['projects'], array('name' => 'QR Generator', 'url' => '/qr/', 'about' => 'QR Code Generator'));
+array_push($projects['frontend']['projects'], array('name' => 'Taobao IP', 'url' => '/taobaoip/', 'about' => 'Taobao IP'));
 array_push($projects['frontend']['projects'], array('name' => 'Gravatar', 'url' => '/gravatar/', 'about' => 'Globally Recognized Avatar'));
 
 array_push($projects['linux']['projects'], array('name' => 'Ubuntu', 'url' => '/ubuntu/', 'about' => 'Ubuntu is an open source software platform that runs everywhere from the smartphone, the tablet and the PC to the server and the cloud'));
