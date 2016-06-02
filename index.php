@@ -1,7 +1,7 @@
 <?php
 $projects = array();
 
-$projects['package'] = array('name' => 'Package', 'projects' => array());
+$projects['package'] = array('name' => 'Package Repository', 'projects' => array());
 $projects['frontend'] = array('name' => 'Front End', 'projects' => array());
 $projects['linux'] = array('name' => 'Linux', 'projects' => array());
 
