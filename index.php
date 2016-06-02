@@ -29,9 +29,9 @@ $site['description'] = '';
         }
     </style>
     <div class="container-fluid" style="padding:0;">
-        <table class="table table-striped table-hover">
+        <table class="table table-hover">
             <?php foreach ($projects as $project): ?>
-                <tr>
+                <tr class="active">
                     <th colspan="2">Mirrors of <?php echo $project['name']; ?></th>
                 </tr>
                 <?php foreach ($project['projects'] as $value): ?>

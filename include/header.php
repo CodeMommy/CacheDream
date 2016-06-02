@@ -1,7 +1,9 @@
 <?php
 $site = isset($site) ? $site : array();
-$static = '/static';
-$static = '//static.shareany.com/product/mirrors';
+
+$serverName = strtolower($_SERVER['SERVER_NAME']);
+$static =($serverName == 'www.mirrors.mom') ? '//static.shareany.com/product/mirrors' : '/static';
+
 $staticVersion = '7';
 ?>
 <!DOCTYPE html>
