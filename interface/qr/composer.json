@@ -1,0 +1,12 @@
+{
+  "name": "xici/qr",
+  "authors": [
+    {
+      "name": "Candison November",
+      "email": "kandisheng@163.com"
+    }
+  ],
+  "require": {
+    "bacon/bacon-qr-code": "^1.0"
+  }
+}
