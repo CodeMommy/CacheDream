@@ -24,6 +24,8 @@ $site['description'] = 'Mirrors of QR Generator. ';
 <pre>
 http://cdn.mirrors.shareany.com/qr/?w=300&h=300&t=http://www.mirrors.mom
 </pre>
+        <p>生成的二维码：</p>
+        <p><img src="http://cdn.mirrors.shareany.com/qr/?w=300&h=300&t=http://www.mirrors.mom" class="img-responsive img-thumbnail" alt="生成的二维码"></p>
 
     </div>
 <?php include_once('../include/footer.php'); ?>

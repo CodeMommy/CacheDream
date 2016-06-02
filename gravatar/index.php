@@ -26,6 +26,8 @@ http://www.gravatar.com/avatar/86a041208140c5e9ad6a2dc72f59e30d
 <pre>
 http://cdn.mirrors.shareany.com/gravatar/avatar/86a041208140c5e9ad6a2dc72f59e30d
 </pre>
+        <p>头像</p>
+        <p><img src="http://cdn.mirrors.shareany.com/gravatar/avatar/86a041208140c5e9ad6a2dc72f59e30d" class="img-responsive img-thumbnail" alt="头像"></p>
 
         <h3>Mirrors in Mainland China</h3>
         <p>

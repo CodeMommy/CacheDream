@@ -44,3 +44,7 @@ code {
 .navbar-toggle {
     border-radius: 0;
 }
+
+.img-thumbnail {
+    border-radius: 0;
+}
