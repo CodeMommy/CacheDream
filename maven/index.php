@@ -27,5 +27,8 @@ $site['description'] = 'Mirrors of Maven. ';
 &lt;/mirror&gt;
 </pre>
 
+        <h3>Mirrors in Mainland China</h3>
+        <p><a target="_blank" title="Aliyun" href="http://maven.aliyun.com/nexus/content/groups/public/">Aliyun</a></p>
+
     </div>
 <?php include_once('../include/footer.php'); ?>
