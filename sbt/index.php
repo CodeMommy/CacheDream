@@ -20,6 +20,9 @@ $site['description'] = 'Mirrors of SBT. ';
 <pre>
 Bintray：<a href="http://cdn.mirrors.shareany.com/sbt/bintray/" target="_blank" title="SBT">http://cdn.mirrors.shareany.com/sbt/bintray/</a>
 </pre>
+        <pre>
+Typesafe：<a href="http://cdn.mirrors.shareany.com/sbt/typesafe/" target="_blank" title="SBT">http://cdn.mirrors.shareany.com/sbt/typesafe/</a>
+</pre>
 
     </div>
 <?php include_once('../include/footer.php'); ?>
