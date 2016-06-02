@@ -6,5 +6,5 @@ function printLine($text)
     echo "\n";
 }
 
-printLine('Server start at http://0.0.0.0:8888');
-system('php -S 0.0.0.0:8888');
+printLine('Server start at http://0.0.0.0:80');
+system('php -S 0.0.0.0:80');
