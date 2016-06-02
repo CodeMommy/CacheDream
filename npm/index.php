@@ -22,7 +22,7 @@ $site['description'] = 'Mirrors of NPM. ';
 </pre>
         <p>方法一：手动指定镜像地址</p>
 <pre>
-npm install -g cnpm --registry=http://cdn.mirrors.shareany.com/npm
+npm install gulp --registry=http://cdn.mirrors.shareany.com/npm
 </pre>
 
         <h3>Mirrors in Mainland China</h3>
