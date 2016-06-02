@@ -12,7 +12,7 @@ $site['description'] = 'Mirrors of QR Generator. ';
             <p>QR Code Generator</p>
             <p>
 <!--                <a target="_blank" title="Website" href="https://www.npmjs.com/">Website</a> --->
-                <a target="_blank" title="Official" href="http://www.mirrors.mom/interface/qr/">Official</a>
+                <a target="_blank" title="Official" href="http://www.mirrors.mom/interface/qr-generator/">Official</a>
             </p>
         </div>
 
@@ -25,7 +25,7 @@ $site['description'] = 'Mirrors of QR Generator. ';
 http://cdn.mirrors.shareany.com/qr/?w=300&h=300&t=http://www.mirrors.mom
 </pre>
         <p>生成的二维码：</p>
-        <p><img src="http://cdn.mirrors.shareany.com/qr/?w=300&h=300&t=http://www.mirrors.mom" class="img-responsive img-thumbnail" alt="生成的二维码"></p>
+        <p><img src="http://cdn.mirrors.shareany.com/qr-generator/?w=300&h=300&t=http://www.mirrors.mom" class="img-responsive img-thumbnail" alt="生成的二维码"></p>
 
     </div>
 <?php include_once('../../template/footer.php'); ?>
