@@ -4,7 +4,7 @@ $site['title'] = 'Maven Mirrors';
 $site['keywords'] = 'Mirrors of Maven,';
 $site['description'] = 'Mirrors of Maven. ';
 ?>
-<?php include_once('../-include/header.php'); ?>
+<?php include_once('../../template/header.php'); ?>
     <div class="container-fluid">
 
         <div class="well">
@@ -31,4 +31,4 @@ $site['description'] = 'Mirrors of Maven. ';
         <p><a target="_blank" title="Aliyun" href="http://maven.aliyun.com/nexus/content/groups/public/">Aliyun</a></p>
 
     </div>
-<?php include_once('../-include/footer.php'); ?>
+<?php include_once('../../template/footer.php'); ?>

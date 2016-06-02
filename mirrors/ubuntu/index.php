@@ -4,7 +4,7 @@ $site['title'] = 'Ubuntu Mirrors';
 $site['keywords'] = 'Mirrors of Ubuntu,';
 $site['description'] = 'Mirrors of Ubuntu. ';
 ?>
-<?php include_once('../-include/header.php'); ?>
+<?php include_once('../../template/header.php'); ?>
     <div class="container-fluid">
 
         <div class="well">
@@ -33,4 +33,4 @@ $site['description'] = 'Mirrors of Ubuntu. ';
         <p><a target="_blank" title="France" href="ftp://ftp.free.fr/mirrors/ftp.ubuntu.com/ubuntu/">France</a></p>
 
     </div>
-<?php include_once('../-include/footer.php'); ?>
+<?php include_once('../../template/footer.php'); ?>

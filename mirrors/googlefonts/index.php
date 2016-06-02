@@ -4,7 +4,7 @@ $site['title'] = 'Google Fonts Mirrors';
 $site['keywords'] = 'Mirrors of Google Fonts,';
 $site['description'] = 'Mirrors of Google Fonts. ';
 ?>
-<?php include_once('../-include/header.php'); ?>
+<?php include_once('../../template/header.php'); ?>
     <div class="container-fluid">
         
         <div class="well">
@@ -33,4 +33,4 @@ http://cdn.mirrors.shareany.com/googlefonts/css?family=Montserrat
         </p>
 
     </div>
-<?php include_once('../-include/footer.php'); ?>
+<?php include_once('../../template/footer.php'); ?>

@@ -4,7 +4,7 @@ $site['title'] = 'SBT Mirrors';
 $site['keywords'] = 'Mirrors of SBT,';
 $site['description'] = 'Mirrors of SBT. ';
 ?>
-<?php include_once('../-include/header.php'); ?>
+<?php include_once('../../template/header.php'); ?>
     <div class="container-fluid">
 
         <div class="well">
@@ -26,4 +26,4 @@ Typesafe：<a href="http://cdn.mirrors.shareany.com/sbt/typesafe/" target="_blan
 </pre>
 
     </div>
-<?php include_once('../-include/footer.php'); ?>
+<?php include_once('../../template/footer.php'); ?>
