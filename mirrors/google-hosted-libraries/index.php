@@ -17,14 +17,14 @@ $site['description'] = 'Mirrors of Google Hosted Libraries (Google AJAX). ';
         </div>
 
         <h3>Mirrors from Official</h3>
-        <p>把获取的地址中<code>ajax.googleapis.com</code>替换成<code>cdn.mirrors.shareany.com/googleajax</code></p>
+        <p>把获取的地址中<code>ajax.googleapis.com</code>替换成<code>cdn.mirrors.shareany.com/google-ajax</code></p>
         <p>例如，从Google Hosted Libraries (Google AJAX)获取的地址是：</p>
 <pre>
 https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js
 </pre>
         <p>替换后的地址就是：</p>
 <pre>
-http://cdn.mirrors.shareany.com/googleajax/ajax/libs/jquery/1.12.4/jquery.min.js
+http://cdn.mirrors.shareany.com/google-ajax/ajax/libs/jquery/1.12.4/jquery.min.js
 </pre>
 
         <h3>Mirrors in Mainland China</h3>

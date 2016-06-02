@@ -17,14 +17,14 @@ $site['description'] = 'Mirrors of Google Fonts. ';
         </div>
 
         <h3>Mirrors from 360</h3>
-        <p>把获取的字体地址中<code>fonts.googleapis.com</code>替换成<code>cdn.mirrors.shareany.com/googlefonts</code></p>
+        <p>把获取的字体地址中<code>fonts.googleapis.com</code>替换成<code>cdn.mirrors.shareany.com/google-fonts</code></p>
         <p>例如，从Google Fonts获取的地址是：</p>
 <pre>
 https://fonts.googleapis.com/css?family=Montserrat
 </pre>
         <p>替换后的地址就是：</p>
 <pre>
-http://cdn.mirrors.shareany.com/googlefonts/css?family=Montserrat
+http://cdn.mirrors.shareany.com/google-fonts/css?family=Montserrat
 </pre>
 
         <h3>Mirrors in Mainland China</h3>

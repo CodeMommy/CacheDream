@@ -19,7 +19,7 @@ $site['description'] = 'Mirrors of Taobao IP. ';
         <h3>Mirrors from Official</h3>
         <p>替换后的地址就是：</p>
 <pre>
-http://cdn.mirrors.shareany.com/taobaoip/58.213.35.85
+http://cdn.mirrors.shareany.com/taobao-ip/58.213.35.85
 </pre>
         <p>接口结果是：</p>
 <pre>

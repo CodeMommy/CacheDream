@@ -21,21 +21,21 @@ $site['description'] = 'Mirrors of Baidu TTS. ';
 
         <h3>Mirrors from Official</h3>
 <pre>
-英文“Mirrors”的音频地址：http://cdn.mirrors.shareany.com/baiduttsen/Mirrors
+英文“Mirrors”的音频地址：http://cdn.mirrors.shareany.com/baidu-tt-sen/Mirrors
 </pre>
         <p>试听</p>
         <p>
-            <audio src="http://cdn.mirrors.shareany.com/baiduttsen/Mirrors" controls="controls" preload="preload">
+            <audio src="http://cdn.mirrors.shareany.com/baidu-tts-en/Mirrors" controls="controls" preload="preload">
                 您的浏览器不支持 audio 标签。
             </audio>
         </p>
 <pre>
-中文“镜像”的音频地址：http://cdn.mirrors.shareany.com/baiduttszh/镜像
+中文“镜像”的音频地址：http://cdn.mirrors.shareany.com/baidu-tts-zh/镜像
 </pre>
 
         <p>试听</p>
         <p>
-            <audio src="http://cdn.mirrors.shareany.com/baiduttszh/镜像" controls="controls" preload="preload">
+            <audio src="http://cdn.mirrors.shareany.com/baidu-tts-zh/镜像" controls="controls" preload="preload">
                 您的浏览器不支持 audio 标签。
             </audio>
         </p>

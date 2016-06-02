@@ -19,10 +19,10 @@ $site['description'] = 'Mirrors of SBT. ';
 
         <h3>Mirrors from Official</h3>
 <pre>
-Bintray：<a href="http://cdn.mirrors.shareany.com/sbt/bintray/" target="_blank" title="SBT">http://cdn.mirrors.shareany.com/sbt/bintray/</a>
+Bintray：<a href="http://cdn.mirrors.shareany.com/sbt-bintray/" target="_blank" title="SBT">http://cdn.mirrors.shareany.com/sbt-bintray/</a>
 </pre>
         <pre>
-Typesafe：<a href="http://cdn.mirrors.shareany.com/sbt/typesafe/" target="_blank" title="SBT">http://cdn.mirrors.shareany.com/sbt/typesafe/</a>
+Typesafe：<a href="http://cdn.mirrors.shareany.com/sbt-typesafe/" target="_blank" title="SBT">http://cdn.mirrors.shareany.com/sbt-typesafe/</a>
 </pre>
 
     </div>
