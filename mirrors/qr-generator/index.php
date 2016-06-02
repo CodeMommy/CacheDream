@@ -18,11 +18,11 @@ $site['description'] = 'Mirrors of QR Generator. ';
 
         <h3>Mirrors from Official</h3>
 <pre>
-镜像地址：http://cdn.mirrors.shareany.com/qr/
+镜像地址：http://cdn.mirrors.shareany.com/qr-generator/
 </pre>
         <p>例如</p>
 <pre>
-http://cdn.mirrors.shareany.com/qr/?w=300&h=300&t=http://www.mirrors.mom
+http://cdn.mirrors.shareany.com/qr-generator/?w=300&h=300&t=http://www.mirrors.mom
 </pre>
         <p>生成的二维码：</p>
         <p><img src="http://cdn.mirrors.shareany.com/qr-generator/?w=300&h=300&t=http://www.mirrors.mom" class="img-responsive img-thumbnail" alt="生成的二维码"></p>
