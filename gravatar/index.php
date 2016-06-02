@@ -1,6 +1,6 @@
 <?php
 $site = array();
-$site['title'] = 'Mirrors of Gravatar';
+$site['title'] = 'Gravatar Mirrors';
 $site['keywords'] = 'Mirrors of Gravatar,';
 $site['description'] = 'Mirrors of Gravatar. ';
 ?>

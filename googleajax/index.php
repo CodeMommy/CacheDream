@@ -1,6 +1,6 @@
 <?php
 $site = array();
-$site['title'] = 'Mirrors of Google Hosted Libraries (Google AJAX)';
+$site['title'] = 'Google Hosted Libraries (Google AJAX) Mirrors';
 $site['keywords'] = 'Mirrors of Google Hosted Libraries (Google AJAX),';
 $site['description'] = 'Mirrors of Google Hosted Libraries (Google AJAX). ';
 ?>

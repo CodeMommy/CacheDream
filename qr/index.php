@@ -1,6 +1,6 @@
 <?php
 $site = array();
-$site['title'] = 'Mirrors of QR Generator';
+$site['title'] = 'QR Generator Mirrors';
 $site['keywords'] = 'Mirrors of QR Generator,';
 $site['description'] = 'Mirrors of QR Generator. ';
 ?>

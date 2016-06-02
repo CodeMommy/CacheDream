@@ -1,6 +1,6 @@
 <?php
 $site = array();
-$site['title'] = 'Mirrors of CentOS';
+$site['title'] = 'CentOS Mirrors';
 $site['keywords'] = 'Mirrors of CentOS,';
 $site['description'] = 'Mirrors of CentOS. ';
 ?>

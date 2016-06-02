@@ -1,6 +1,6 @@
 <?php
 $site = array();
-$site['title'] = 'Mirrors of jQuery';
+$site['title'] = 'jQuery Mirrors';
 $site['keywords'] = 'Mirrors of jQuery,';
 $site['description'] = 'Mirrors of jQuery. ';
 ?>

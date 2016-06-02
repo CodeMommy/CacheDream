@@ -1,6 +1,6 @@
 <?php
 $site = array();
-$site['title'] = 'Mirrors of Ubuntu';
+$site['title'] = 'Ubuntu Mirrors';
 $site['keywords'] = 'Mirrors of Ubuntu,';
 $site['description'] = 'Mirrors of Ubuntu. ';
 ?>

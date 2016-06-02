@@ -1,6 +1,6 @@
 <?php
 $site = array();
-$site['title'] = 'Mirrors of Google Fonts';
+$site['title'] = 'Google Fonts Mirrors';
 $site['keywords'] = 'Mirrors of Google Fonts,';
 $site['description'] = 'Mirrors of Google Fonts. ';
 ?>

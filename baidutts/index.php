@@ -1,6 +1,6 @@
 <?php
 $site = array();
-$site['title'] = 'Mirrors of Baidu TTS';
+$site['title'] = 'Baidu TTS Mirrors';
 $site['keywords'] = 'Mirrors of Baidu TTS,';
 $site['description'] = 'Mirrors of Baidu TTS. ';
 ?>

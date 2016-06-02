@@ -1,6 +1,6 @@
 <?php
 $site = array();
-$site['title'] = 'Mirrors of PIP';
+$site['title'] = 'PIP Mirrors';
 $site['keywords'] = 'Mirrors of PIP,';
 $site['description'] = 'Mirrors of PIP. ';
 ?>
