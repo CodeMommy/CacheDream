@@ -9,7 +9,7 @@ $site['description'] = 'Mirrors of Baidu TTS. ';
         
         <div class="well">
             <h2>Mirrors of Baidu TTS</h2>
-            <p>百度翻译使用的文字转音频接口</p>
+            <p>Engine of text to audio from Baidu Fanyi</p>
             <p>
                 <a target="_blank" title="Website" href="https://www.baidu.com/">Website</a> -
                 <a target="_blank" title="Official Chinese" href="http://tts.baidu.com/text2audio?lan=zh&pid=101&ie=UTF-8&text=镜像">Official Chinese</a> -
