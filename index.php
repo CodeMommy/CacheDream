@@ -9,6 +9,7 @@ array_push($projects['package']['projects'], array('name' => 'Packagist (Compose
 array_push($projects['package']['projects'], array('name' => 'PIP', 'url' => '/pip/', 'about' => 'Python Package Index'));
 array_push($projects['package']['projects'], array('name' => 'NPM', 'url' => '/npm/', 'about' => 'Package Manager for JavaScript'));
 array_push($projects['package']['projects'], array('name' => 'Maven', 'url' => '/maven/', 'about' => 'Apache Maven is a software project management and comprehension tool'));
+array_push($projects['package']['projects'], array('name' => 'SBT', 'url' => '/sbt/', 'about' => 'Simple Build Tool'));
 
 array_push($projects['frontend']['projects'], array('name' => 'jQuery', 'url' => '/jquery/', 'about' => 'jQuery is a fast, small, and feature-rich JavaScript library'));
 array_push($projects['frontend']['projects'], array('name' => 'Google Fonts', 'url' => '/googlefonts/', 'about' => 'GoogleFonts.com has all the most relevant and up-to-date Google Fonts news and information'));
