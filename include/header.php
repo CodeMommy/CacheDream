@@ -3,7 +3,7 @@ $site = isset($site) ? $site : array();
 
 $serverName = strtolower($_SERVER['SERVER_NAME']);
 $static =($serverName == 'www.mirrors.mom') ? '//static.shareany.com/product/mirrors' : '/static';
-
+echo $serverName;
 $staticVersion = '8';
 ?>
 <!DOCTYPE html>
