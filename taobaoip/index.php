@@ -12,7 +12,7 @@ $site['description'] = 'Mirrors of Taobao IP. ';
             <p>Taobao IP</p>
             <p>
                 <a target="_blank" title="Website" href="http://ip.taobao.com/">Website</a> -
-                <a target="_blank" title="Official" href="http://ip.taobao.com/service/getIpInfo.php?ip=">Official</a>
+                <a target="_blank" title="Official" href="http://ip.taobao.com/service/getIpInfo.php?ip=58.213.35.85">Official</a>
             </p>
         </div>
 
