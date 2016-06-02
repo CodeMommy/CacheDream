@@ -1,15 +1,15 @@
 <?php
 $site = array();
-$site['title'] = 'Mirrors of QR';
-$site['keywords'] = 'Mirrors of QR,';
-$site['description'] = 'Mirrors of QR. ';
+$site['title'] = 'Mirrors of QR Generator';
+$site['keywords'] = 'Mirrors of QR Generator,';
+$site['description'] = 'Mirrors of QR Generator. ';
 ?>
 <?php include_once('../include/header.php'); ?>
     <div class="container-fluid">
         
         <div class="well">
-            <h2>Mirrors of QR</h2>
-            <p>QR Code</p>
+            <h2>Mirrors of QR Generator</h2>
+            <p>QR Code Generator</p>
             <p>
 <!--                <a target="_blank" title="Website" href="https://www.npmjs.com/">Website</a> --->
                 <a target="_blank" title="Official" href="http://www.mirrors.mom/interface/qr/">Official</a>
