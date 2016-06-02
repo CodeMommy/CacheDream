@@ -12,7 +12,8 @@ $site['description'] = 'Mirrors of SBT. ';
             <p>Simple Build Tool</p>
             <p>
                 <a target="_blank" title="Website" href="http://www.scala-sbt.org/">Website</a> -
-                <a target="_blank" title="Official" href="http://dl.bintray.com/content/sbt/sbt-plugin-releases/">Official</a>
+                <a target="_blank" title="Bintray" href="http://dl.bintray.com/content/sbt/sbt-plugin-releases/">Bintray</a> -
+                <a target="_blank" title="Typesafe" href="https://dl.bintray.com/typesafe/ivy-releases/">Typesafe</a>
             </p>
         </div>
 
