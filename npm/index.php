@@ -4,7 +4,7 @@ $site['title'] = 'NPM Mirrors';
 $site['keywords'] = 'Mirrors of NPM,';
 $site['description'] = 'Mirrors of NPM. ';
 ?>
-<?php include_once('../include/header.php'); ?>
+<?php include_once('../-include/header.php'); ?>
     <div class="container-fluid">
         
         <div class="well">
@@ -31,4 +31,4 @@ npm install gulp --registry=http://cdn.mirrors.shareany.com/npm
         </p>
 
     </div>
-<?php include_once('../include/footer.php'); ?>
+<?php include_once('../-include/footer.php'); ?>

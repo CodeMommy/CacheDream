@@ -4,7 +4,7 @@ $site['title'] = 'jQuery Mirrors';
 $site['keywords'] = 'Mirrors of jQuery,';
 $site['description'] = 'Mirrors of jQuery. ';
 ?>
-<?php include_once('../include/header.php'); ?>
+<?php include_once('../-include/header.php'); ?>
     <div class="container-fluid">
         
         <div class="well">
@@ -42,4 +42,4 @@ http://cdn.mirrors.shareany.com/jquery/jquery-1.12.4.min.js
         </p>
 
     </div>
-<?php include_once('../include/footer.php'); ?>
+<?php include_once('../-include/footer.php'); ?>

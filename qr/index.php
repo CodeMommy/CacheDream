@@ -4,7 +4,7 @@ $site['title'] = 'QR Generator Mirrors';
 $site['keywords'] = 'Mirrors of QR Generator,';
 $site['description'] = 'Mirrors of QR Generator. ';
 ?>
-<?php include_once('../include/header.php'); ?>
+<?php include_once('../-include/header.php'); ?>
     <div class="container-fluid">
         
         <div class="well">
@@ -28,4 +28,4 @@ http://cdn.mirrors.shareany.com/qr/?w=300&h=300&t=http://www.mirrors.mom
         <p><img src="http://cdn.mirrors.shareany.com/qr/?w=300&h=300&t=http://www.mirrors.mom" class="img-responsive img-thumbnail" alt="生成的二维码"></p>
 
     </div>
-<?php include_once('../include/footer.php'); ?>
+<?php include_once('../-include/footer.php'); ?>

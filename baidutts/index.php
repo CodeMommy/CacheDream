@@ -4,7 +4,7 @@ $site['title'] = 'Baidu TTS Mirrors';
 $site['keywords'] = 'Mirrors of Baidu TTS,';
 $site['description'] = 'Mirrors of Baidu TTS. ';
 ?>
-<?php include_once('../include/header.php'); ?>
+<?php include_once('../-include/header.php'); ?>
     <div class="container-fluid">
 
         <div class="well">
@@ -41,4 +41,4 @@ $site['description'] = 'Mirrors of Baidu TTS. ';
         </p>
 
     </div>
-<?php include_once('../include/footer.php'); ?>
+<?php include_once('../-include/footer.php'); ?>

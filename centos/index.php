@@ -4,7 +4,7 @@ $site['title'] = 'CentOS Mirrors';
 $site['keywords'] = 'Mirrors of CentOS,';
 $site['description'] = 'Mirrors of CentOS. ';
 ?>
-<?php include_once('../include/header.php'); ?>
+<?php include_once('../-include/header.php'); ?>
     <div class="container-fluid">
 
         <div class="well">
@@ -32,4 +32,4 @@ $site['description'] = 'Mirrors of CentOS. ';
         <p><a target="_blank" title="Other Mirrors" href="https://www.centos.org/download/mirrors/">Other Mirrors</a></p>
 
     </div>
-<?php include_once('../include/footer.php'); ?>
+<?php include_once('../-include/footer.php'); ?>

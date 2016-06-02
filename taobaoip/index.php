@@ -4,7 +4,7 @@ $site['title'] = 'Taobao IP Mirrors';
 $site['keywords'] = 'Mirrors of Taobao IP,';
 $site['description'] = 'Mirrors of Taobao IP. ';
 ?>
-<?php include_once('../include/header.php'); ?>
+<?php include_once('../-include/header.php'); ?>
     <div class="container-fluid">
         
         <div class="well">
@@ -44,4 +44,4 @@ http://cdn.mirrors.shareany.com/taobaoip/58.213.35.85
 </pre>
 
     </div>
-<?php include_once('../include/footer.php'); ?>
+<?php include_once('../-include/footer.php'); ?>

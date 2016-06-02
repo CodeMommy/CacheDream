@@ -4,7 +4,7 @@ $site['title'] = 'Packagist (Composer) Mirrors';
 $site['keywords'] = 'Mirrors of Packagist (Composer),';
 $site['description'] = 'Mirrors of Packagist (Composer). ';
 ?>
-<?php include_once('../include/header.php'); ?>
+<?php include_once('../-include/header.php'); ?>
     <div class="container-fluid">
 
         <div class="well">
@@ -39,4 +39,4 @@ composer config repo.packagist composer http://packagist.cdn.mirrors.shareany.co
         <p><a target="_blank" title="Composer中文网" href="http://pkg.phpcomposer.com/">Composer中文网</a></p>
 
     </div>
-<?php include_once('../include/footer.php'); ?>
+<?php include_once('../-include/footer.php'); ?>

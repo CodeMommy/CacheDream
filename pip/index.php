@@ -4,7 +4,7 @@ $site['title'] = 'PIP Mirrors';
 $site['keywords'] = 'Mirrors of PIP,';
 $site['description'] = 'Mirrors of PIP. ';
 ?>
-<?php include_once('../include/header.php'); ?>
+<?php include_once('../-include/header.php'); ?>
     <div class="container-fluid">
         
         <div class="well">
@@ -37,4 +37,4 @@ index-url = http://cdn.mirrors.shareany.com/pypi/simple
         </p>
 
     </div>
-<?php include_once('../include/footer.php'); ?>
+<?php include_once('../-include/footer.php'); ?>

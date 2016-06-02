@@ -5,7 +5,7 @@ $site['keywords'] = '';
 $site['description'] = '';
 ?>
 <?php $projects = include_once('./projects.php'); ?>
-<?php include_once('./include/header.php'); ?>
+<?php include_once('./-include/header.php'); ?>
     <link rel="stylesheet" href="<?php echo $static; ?>/style/index.css?V=<?php echo $staticVersion; ?>">
     <div class="container-fluid" style="padding:0;">
         <table class="table table-hover">
@@ -27,4 +27,4 @@ $site['description'] = '';
             <?php endforeach; ?>
         </table>
     </div>
-<?php include_once('./include/footer.php'); ?>
+<?php include_once('./-include/footer.php'); ?>

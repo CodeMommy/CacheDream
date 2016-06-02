@@ -8,5 +8,9 @@
   ],
   "require": {
     "bacon/bacon-qr-code": "^1.0"
+  },
+  "config":{
+    "vendor-dir": "-vendor"
   }
+
 }

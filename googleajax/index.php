@@ -4,7 +4,7 @@ $site['title'] = 'Google Hosted Libraries (Google AJAX) Mirrors';
 $site['keywords'] = 'Mirrors of Google Hosted Libraries (Google AJAX),';
 $site['description'] = 'Mirrors of Google Hosted Libraries (Google AJAX). ';
 ?>
-<?php include_once('../include/header.php'); ?>
+<?php include_once('../-include/header.php'); ?>
     <div class="container-fluid">
         
         <div class="well">
@@ -33,4 +33,4 @@ http://cdn.mirrors.shareany.com/googleajax/ajax/libs/jquery/1.12.4/jquery.min.js
         </p>
 
     </div>
-<?php include_once('../include/footer.php'); ?>
+<?php include_once('../-include/footer.php'); ?>

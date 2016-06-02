@@ -4,7 +4,7 @@ $site['title'] = 'Deepin Mirrors';
 $site['keywords'] = 'Mirrors of Deepin,';
 $site['description'] = 'Mirrors of Ubuntu. ';
 ?>
-<?php include_once('../include/header.php'); ?>
+<?php include_once('../-include/header.php'); ?>
     <div class="container-fluid">
 
         <div class="well">
@@ -29,4 +29,4 @@ $site['description'] = 'Mirrors of Ubuntu. ';
         <p><a target="_blank" title="Other Mirrors" href="https://www.deepin.org/mirror.html?index=iso">Other Mirrors</a></p>
 
     </div>
-<?php include_once('../include/footer.php'); ?>
+<?php include_once('../-include/footer.php'); ?>

@@ -4,7 +4,7 @@ $site['title'] = 'Gravatar Mirrors';
 $site['keywords'] = 'Mirrors of Gravatar,';
 $site['description'] = 'Mirrors of Gravatar. ';
 ?>
-<?php include_once('../include/header.php'); ?>
+<?php include_once('../-include/header.php'); ?>
     <div class="container-fluid">
 
         <div class="well">
@@ -38,4 +38,4 @@ http://cdn.mirrors.shareany.com/gravatar/avatar/86a041208140c5e9ad6a2dc72f59e30d
         </p>
 
     </div>
-<?php include_once('../include/footer.php'); ?>
+<?php include_once('../-include/footer.php'); ?>
