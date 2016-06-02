@@ -21,7 +21,7 @@ $site['description'] = 'Mirrors of Baidu TTS. ';
 
         <h3>Mirrors from Official</h3>
 <pre>
-英文“Mirrors”的地址：http://cdn.mirrors.shareany.com/baiduttsen/Mirrors
+英文“Mirrors”的音频地址：http://cdn.mirrors.shareany.com/baiduttsen/Mirrors
 </pre>
         <p>试听</p>
         <p>
@@ -30,7 +30,7 @@ $site['description'] = 'Mirrors of Baidu TTS. ';
             </audio>
         </p>
 <pre>
-中文“镜像”的地址：http://cdn.mirrors.shareany.com/baiduttszh/镜像
+中文“镜像”的音频地址：http://cdn.mirrors.shareany.com/baiduttszh/镜像
 </pre>
 
         <p>试听</p>
