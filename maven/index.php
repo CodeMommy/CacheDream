@@ -23,7 +23,7 @@ $site['description'] = 'Mirrors of Maven. ';
     &lt;id&gt;nexus-mirrors.mom&lt;/id&gt;
     &lt;mirrorOf&gt;*&lt;/mirrorOf&gt;
     &lt;name&gt;Nexus Mirrors.mom&lt;/name&gt;
-    &lt;url&gt;http://cdn.mirrors.shareany.com/maven/maven2/&lt;/url&gt;
+    &lt;url&gt;http://cdn.mirrors.shareany.com/maven/&lt;/url&gt;
 &lt;/mirror&gt;
 </pre>
 
