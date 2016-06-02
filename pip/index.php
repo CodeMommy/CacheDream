@@ -16,7 +16,7 @@ $site['description'] = 'Mirrors of PIP. ';
             </p>
         </div>
 
-        <h3>Mirrors from USTC</h3>
+        <h3>Mirrors from Official</h3>
 <pre>
 镜像地址：http://cdn.mirrors.shareany.com/pypi/
 </pre>
