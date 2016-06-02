@@ -19,7 +19,7 @@ $site['description'] = 'Mirrors of Ubuntu. ';
         </div>
 
         <h3>Mirrors from Official</h3>
-        <p><a target="_blank" title="Website" href="http://cdn.mirrors.mom/ubuntu/">http://cdn.mirrors.mom/ubuntu/</a>
+        <p><a target="_blank" title="Website" href="http://cdn.mirrors.shareany.com/ubuntu/">http://cdn.mirrors.shareany.com/ubuntu/</a>
         </p>
 
         <h3>Mirrors in Mainland China</h3>
