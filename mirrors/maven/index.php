@@ -17,14 +17,22 @@ $site['description'] = 'Mirrors of Maven. ';
         </div>
 
         <h3>Mirrors from Official</h3>
-        <p>修改<code>settings.xml</code>文件，在&lt;mirrors&gt;节点中插入</p>
 <pre>
-&lt;mirror&gt;
+<a target="_blank" href="http://cdn.mirrors.shareany.com/maven/">http://cdn.mirrors.shareany.com/maven/</a>
+</pre>
+        <p>使用方法：修改<code>settings.xml</code>文件：</p>
+<pre>
+&lt;repository>
     &lt;id&gt;nexus-mirrors.mom&lt;/id&gt;
-    &lt;mirrorOf&gt;*&lt;/mirrorOf&gt;
     &lt;name&gt;Nexus Mirrors.mom&lt;/name&gt;
     &lt;url&gt;http://cdn.mirrors.shareany.com/maven/&lt;/url&gt;
-&lt;/mirror&gt;
+    &lt;releases&gt;
+      &lt;enabled&gt;true&lt;/enabled&gt;
+    &lt;/releases&gt;
+    &lt;snapshots&gt;
+      &lt;enabled&gt;false&lt;/enabled&gt;
+    &lt;/snapshots&gt;
+&lt;/repository&gt;
 </pre>
 
         <h3>Mirrors in Mainland China</h3>
