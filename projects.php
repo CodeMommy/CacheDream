@@ -11,6 +11,7 @@ array_push($projects['package']['projects'], array('name' => 'PIP', 'url' => '/m
 array_push($projects['package']['projects'], array('name' => 'NPM', 'url' => '/mirrors/npm/', 'about' => 'Package Manager for JavaScript'));
 array_push($projects['package']['projects'], array('name' => 'Maven', 'url' => '/mirrors/maven/', 'about' => 'Apache Maven is a software project management and comprehension tool'));
 array_push($projects['package']['projects'], array('name' => 'SBT', 'url' => '/mirrors/sbt/', 'about' => 'Simple Build Tool'));
+array_push($projects['package']['projects'], array('name' => 'MELPA', 'url' => '/mirrors/emacs-melpa/', 'about' => 'Milkypostman’s Emacs Lisp Package Archive'));
 
 array_push($projects['frontend']['projects'], array('name' => 'jQuery', 'url' => '/mirrors/jquery/', 'about' => 'jQuery is a fast, small, and feature-rich JavaScript library'));
 array_push($projects['frontend']['projects'], array('name' => 'Google Fonts', 'url' => '/mirrors/google-fonts/', 'about' => 'GoogleFonts.com has all the most relevant and up-to-date Google Fonts news and information'));
