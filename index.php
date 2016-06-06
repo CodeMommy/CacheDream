@@ -11,7 +11,7 @@ $site['description'] = '';
         <table class="table table-hover">
             <?php foreach ($projects as $key=>$project): ?>
                 <tr class="active" id="<?php echo $key; ?>">
-                    <th colspan="2">Mirrors of <?php echo $project['name']; ?></th>
+                    <th colspan="2"><?php echo $project['name']; ?></th>
                 </tr>
                 <?php foreach ($project['projects'] as $value): ?>
                     <tr>

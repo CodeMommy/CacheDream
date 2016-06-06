@@ -53,6 +53,7 @@ $staticVersion = '8';
             <li><a href="/#package">Package Repository <span class="sr-only">(current)</span></a></li>
                 <li><a href="/#frontend">Front End <span class="sr-only">(current)</span></a></li>
                 <li><a href="/#linux">Linux <span class="sr-only">(current)</span></a></li>
+                <li><a href="/#link">Other Hosting <span class="sr-only">(current)</span></a></li>
 <!--            <li><a href="#">Link</a></li>-->
 <!--            <li class="dropdown">-->
 <!--            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>-->
