@@ -46,7 +46,7 @@ class BaseController extends Controller
             $this->data['title'] .= ' - ';
         }
         $this->data['root'] = Me::root();
-        if (Me::domain() == 'www.mirrors.mom') {
+        if (Me::domain() == 'www.mirrors.mom' || Me::domain() == 'mirrors.mom') {
             $this->data['static'] = 'http://static.shareany.com/product/mirrors';
         } else {
             $this->data['static'] = Me::root() . 'static';
