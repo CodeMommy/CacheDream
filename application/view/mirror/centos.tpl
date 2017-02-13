@@ -1,4 +1,4 @@
-{assign var="title" value="CentOS Mirrors"}
+{assign var="title" value="CentOS Mirrors - "}
 {assign var="keywords" value="Mirrors of CentOS,"}
 {assign var="description" value="Mirrors of CentOS. "}
 {extends file='../base/base.tpl'}

@@ -1,3 +1,6 @@
+{assign var="title" value=""}
+{assign var="keywords" value=""}
+{assign var="description" value=""}
 {extends file='../base/base.tpl'}
 {block name=main}
     <link rel="stylesheet" href="{$static}/style/index.css">

@@ -1,4 +1,4 @@
-{assign var="title" value="Baidu TTS Mirrors"}
+{assign var="title" value="Baidu TTS Mirrors - "}
 {assign var="keywords" value="Mirrors of Baidu TTS,"}
 {assign var="description" value="Mirrors of Baidu TTS. "}
 {extends file='../base/base.tpl'}

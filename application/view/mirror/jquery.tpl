@@ -1,4 +1,4 @@
-{assign var="title" value="jQuery Mirrors"}
+{assign var="title" value="jQuery Mirrors - "}
 {assign var="keywords" value="Mirrors of jQuery,"}
 {assign var="description" value="Mirrors of jQuery. "}
 {extends file='../base/base.tpl'}

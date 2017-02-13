@@ -1,4 +1,4 @@
-{assign var="title" value="Google Hosted Libraries (Google AJAX) Mirrors"}
+{assign var="title" value="Google Hosted Libraries (Google AJAX) Mirrors - "}
 {assign var="keywords" value="Mirrors of Google Hosted Libraries (Google AJAX),"}
 {assign var="description" value="Mirrors of Google Hosted Libraries (Google AJAX). "}
 {extends file='../base/base.tpl'}

@@ -1,4 +1,4 @@
-{assign var="title" value="Taobao IP Mirrors"}
+{assign var="title" value="Taobao IP Mirrors - "}
 {assign var="keywords" value="Mirrors of Taobao IP,"}
 {assign var="description" value="Mirrors of Taobao IP. "}
 {extends file='../base/base.tpl'}

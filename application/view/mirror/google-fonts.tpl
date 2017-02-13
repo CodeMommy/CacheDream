@@ -1,4 +1,4 @@
-{assign var="title" value="Google Fonts Mirrors"}
+{assign var="title" value="Google Fonts Mirrors - "}
 {assign var="keywords" value="Mirrors of Google Fonts,"}
 {assign var="description" value="Mirrors of Google Fonts. "}
 {extends file='../base/base.tpl'}

@@ -1,4 +1,4 @@
-{assign var="title" value="Gravatar Mirrors"}
+{assign var="title" value="Gravatar Mirrors - "}
 {assign var="keywords" value="Mirrors of Gravatar,"}
 {assign var="description" value="Mirrors of Gravatar. "}
 {extends file='../base/base.tpl'}

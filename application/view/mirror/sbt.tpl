@@ -1,4 +1,4 @@
-{assign var="title" value="SBT Mirrors"}
+{assign var="title" value="SBT Mirrors - "}
 {assign var="keywords" value="Mirrors of SBT,"}
 {assign var="description" value="Mirrors of SBT. "}
 {extends file='../base/base.tpl'}

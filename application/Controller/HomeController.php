@@ -28,9 +28,6 @@ class HomeController extends BaseController
      */
     public function index()
     {
-        $this->option['title'] = '';
-        $this->option['keywords'] = '';
-        $this->option['description'] = '';
         $this->data['projects'] = Config::get('project');
         return $this->template('home/index');
     }
@@ -40,9 +37,6 @@ class HomeController extends BaseController
      */
     public function about()
     {
-        $this->option['title'] = 'About Mirrors.mom';
-        $this->option['keywords'] = 'About Mirrors.mom,';
-        $this->option['description'] = 'About Mirrors.mom.';
         return $this->template('home/about');
     }
 }

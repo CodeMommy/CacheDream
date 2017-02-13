@@ -1,3 +1,6 @@
+{assign var="title" value="About Mirrors.mom - "}
+{assign var="keywords" value="About Mirrors.mom,"}
+{assign var="description" value="About Mirrors.mom. "}
 {extends file='../base/base.tpl'}
 {block name=main}
     <div class="container-fluid">

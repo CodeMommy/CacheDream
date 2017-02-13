@@ -1,4 +1,4 @@
-{assign var="title" value="Maven Mirrors"}
+{assign var="title" value="Maven Mirrors - "}
 {assign var="keywords" value="Mirrors of Maven,"}
 {assign var="description" value="Mirrors of Maven. "}
 {extends file='../base/base.tpl'}

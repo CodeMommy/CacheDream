@@ -40,14 +40,17 @@ class BaseController extends Controller
         foreach ($this->option as $key => $value) {
             $this->data[$key] = $value;
         }
-        $configTitle = Config::get('application.title');
         if (empty($this->data['title'])) {
-            $this->data['title'] = $configTitle;
+            $this->data['title'] = '';
         } else {
-            $this->data['title'] .= ' - ' . $configTitle;
+            $this->data['title'] .= ' - ';
         }
         $this->data['root'] = Me::root();
-        $this->data['static'] = Me::root() . 'static';
+        if (Me::domain() == 'www.mirrors.mom') {
+            $this->data['static'] = 'http://static.shareany.com/product/mirrors';
+        } else {
+            $this->data['static'] = Me::root() . 'static';
+        }
         return Output::template($view, $this->data);
     }
 }
