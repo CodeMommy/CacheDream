@@ -1,12 +1,26 @@
 {
-  "name": "shareany/mirrors.mom",
+  "name": "codemommy/mirrors.mom",
+  "version": "0.0.2",
+  "description": "Mirrors.mom is an open source project that provide mirrors service for developers.",
+  "keywords": [
+    "Mirrors.mom"
+  ],
+  "license": "Apache",
+  "homepage": "http://www.mirrors.mom",
+  "support": {
+    "issues": "https://github.com/CodeMommy/Mirrors/issues",
+    "source": "https://github.com/CodeMommy/Mirrors"
+  },
   "authors": [
     {
       "name": "Candison November",
-      "email": "kandisheng@163.com"
+      "email": "kandisheng@163.com",
+      "homepage": "http://www.kandisheng.com"
     }
   ],
   "require": {
-    "bacon/bacon-qr-code": "^1.0"
+    "php": ">=5.3.0",
+    "codemommy/webphp": "1.1.*",
+    "bacon/bacon-qr-code": "1.0.*"
   }
 }
