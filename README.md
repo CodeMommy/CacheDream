@@ -3,7 +3,7 @@
 ## Overview
 
 
-> Mirrors.mom is an open source project that provide mirrors service for developers.
+> Cache for development in China
 
 Visit [Website](http://www.mirrors.mom) to get more information.
 

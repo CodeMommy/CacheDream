@@ -1,7 +1,7 @@
 {
   "name": "codemommy/mirrors.mom",
   "version": "0.0.2",
-  "description": "Mirrors.mom is an open source project that provide mirrors service for developers.",
+  "description": "Cache for development in China",
   "keywords": [
     "Mirrors.mom"
   ],
