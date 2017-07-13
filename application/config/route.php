@@ -8,6 +8,7 @@ return array(
     'get'  => array(
         ''                       => 'HomeController.index',
         'about'                  => 'HomeController.about',
+        'staticfile'                  => 'StaticFileController.index',
         'interface/qr-generator' => 'Tool.QRGeneratorController.index'
     ),
     'any'  => array(
