@@ -10,7 +10,7 @@ return array(
     'get'  => array(
         ''                       => 'Page.HomeController.index',
         'about'                  => 'Page.HomeController.about',
-        'staticfile'             => 'Page.StaticFileController.index',
+        'web'                    => 'Page.WebController.index',
         'interface/cache'        => 'Tool.CacheController.index',
         'interface/qr-generator' => 'Tool.QRGeneratorController.index',
         'cache/{project}'        => 'Page.MirrorController.index'

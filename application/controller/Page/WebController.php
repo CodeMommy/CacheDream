@@ -12,10 +12,10 @@ use CodeMommy\RequestPHP\Request;
 use Base\ViewController;
 
 /**
- * Class StaticFileController
+ * Class WebController
  * @package Controller\Page
  */
-class StaticFileController extends ViewController
+class WebController extends ViewController
 {
     /**
      * HomeController constructor.
@@ -112,10 +112,10 @@ class StaticFileController extends ViewController
             $array['file'] = $file;
             $array['type'] = $this->getFileType($pathFull, $file);
             if (empty($path)) {
-                $array['link'] = Request::root() . 'staticfile/' . '?path=' . $file;
+                $array['link'] = Request::root() . 'web/' . '?path=' . $file;
                 $array['cdn'] = $cdn . $file;
             } else {
-                $array['link'] = Request::root() . 'staticfile/' . '?path=' . $path . '/' . $file;
+                $array['link'] = Request::root() . 'web/' . '?path=' . $path . '/' . $file;
                 $array['cdn'] = $cdn . $path . '/' . $file;
             }
             $list[strtolower($file)] = $array;
@@ -131,12 +131,12 @@ class StaticFileController extends ViewController
         }
         // 面包削
         $crumbs = array();
-        $crumbs['Root'] = Request::root() . 'staticfile/';
+        $crumbs['Root'] = Request::root() . 'web/';
         if (!empty($path)) {
             $temp = explode('/', $path);
             foreach ($temp as $key => $value) {
                 if ($key == 0) {
-                    $crumbs[$value] = Request::root() . 'staticfile/' . '?path=' . $value;
+                    $crumbs[$value] = Request::root() . 'web/' . '?path=' . $value;
                 } else {
                     $crumbs[$value] = end($crumbs) . '/' . $value;
                 }
@@ -152,10 +152,10 @@ class StaticFileController extends ViewController
         $this->data['word'] = str_replace('/', ' ', $path);
         $this->data['title'] = $this->data['word'];
         if (empty($this->data['title'])) {
-            $this->data['title'] = 'StaticFile';
+            $this->data['title'] = 'Web Static File';
         } else {
-            $this->data['title'] .= ' - StaticFile';
+            $this->data['title'] .= ' - Web Static File';
         }
-        return $this->render('staticfile/index');
+        return $this->render('web/index');
     }
 }

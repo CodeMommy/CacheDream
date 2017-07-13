@@ -10,7 +10,7 @@
     <meta name="description" content="CacheDream StaticFile For Free Forever. {$word}">
     <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="{$static}/icon/favicon.ico">
     <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{$static}/staticfile/style/theme.css">
+    <link rel="stylesheet" href="{$static}/web/style/theme.css">
 </head>
 <body>
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -28,7 +28,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{$root}staticfile/" title="CacheDream StaticFile">CacheDream StaticFile</a>
+            <a class="navbar-brand" href="{$root}web/" title="Web Static File">Web Static File</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -70,8 +70,8 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                        aria-expanded="false">Mirror <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="{$root}staticfile/?path=Mirror/BaiduCDN">Baidu</a></li>
-                        <li><a href="{$root}staticfile/?path=Mirror/StaticFile.org">StaticFile.org</a></li>
+                        <li><a href="{$root}web/?path=Mirror/BaiduCDN">Baidu</a></li>
+                        <li><a href="{$root}web/?path=Mirror/StaticFile.org">StaticFile.org</a></li>
                         {*<li><a href="#">Action</a></li>*}
                         {*<li><a href="#">Another action</a></li>*}
                         {*<li><a href="#">Something else here</a></li>*}
