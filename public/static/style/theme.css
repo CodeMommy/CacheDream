@@ -1,5 +1,6 @@
 * {
-    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif;
+    /*font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif;*/
+    font-family: Helvetica, Arial, Verdana, sans-serif, "Microsoft YaHei";
 }
 
 .hide {

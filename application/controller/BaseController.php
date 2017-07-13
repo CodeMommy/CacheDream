@@ -1,15 +1,14 @@
 <?php
 
 /**
- * CodeMommy Mirrors.mom
- * @author  Candison November <www.kandisheng.com>
+ * CodeMommy CacheDream
+ * @author Candison November <www.kandisheng.com>
  */
 
 namespace Controller;
 
 use CodeMommy\WebPHP\Controller;
 use CodeMommy\WebPHP\View;
-use CodeMommy\ConfigPHP\Config;
 use CodeMommy\RequestPHP\Request;
 
 /**
@@ -46,8 +45,8 @@ class BaseController extends Controller
             $this->data['title'] .= ' - ';
         }
         $this->data['root'] = Request::root();
-        if (Request::domain() == 'www.mirrors.mom' || Request::domain() == 'mirrors.mom') {
-            $this->data['static'] = 'http://static.shareany.com/product/mirrors';
+        if (Request::domain() == 'www.cachecode.com' || Request::domain() == 'cachecode.com') {
+            $this->data['static'] = '//cache.shareany.com/?v=1&f=http://www.cachedream.com/static';
         } else {
             $this->data['static'] = Request::root() . 'static';
         }

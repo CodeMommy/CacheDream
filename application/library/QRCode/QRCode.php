@@ -1,8 +1,8 @@
 <?php
 
 /**
- * CodeMommy Mirrors.mom
- * @author  Candison November <www.kandisheng.com>
+ * CodeMommy CacheDream
+ * @author Candison November <www.kandisheng.com>
  */
 
 use BaconQrCode\Renderer\Image\Png;

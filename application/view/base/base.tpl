@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>{$title}Mirrors.mom - an open source project that provide mirrors service for developers</title>
+    <title>{$title}CacheDream - an open source project that provide mirrors service for developers</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="CodeMommy.com">
-    <meta name="keywords" content="{$keywords}Mirrors,Mirrors.mom">
+    <meta name="keywords" content="{$keywords}Mirrors,CacheDream">
     <meta name="description"
-          content="{$description}Mirrors.mom is an open source project that provide mirrors service for developers.">
+          content="{$description}CacheDream is an open source project that provide mirrors service for developers.">
     <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="{$static}/icon/favicon.ico">
     <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="{$static}/style/theme.css">
@@ -19,8 +19,8 @@
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <a class="navbar-brand" href="{$root}" title="Mirrors.mom">
-                <img alt="Mirrors.mom" src="{$static}/picture/logo.png">
+            <a class="navbar-brand" href="{$root}" title="CacheDream">
+                <img alt="CacheDream" src="{$static}/picture/logo.png" style="width:32px; height:32px; margin-top: -6px;">
             </a>
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                     data-target="#bs-example-navbar-collapse-1"
@@ -30,7 +30,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{$root}" title="Mirrors.mom">Mirrors.mom</a>
+            <a class="navbar-brand" href="{$root}" title="CacheDream">CacheDream</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
