@@ -8,7 +8,7 @@
 namespace Controller\Tool;
 
 use Controller\BaseController;
-use QRCode;
+use Core\QRCode;
 
 /**
  * Class QRGeneratorController

@@ -2,17 +2,22 @@
 
 /**
  * CodeMommy Cache
- * @author Candison <www.kandisheng.com>
+ * @author  Candison November <www.kandisheng.com>
  */
 
-namespace Helper;
+namespace Controller\Tool;
 
+use Controller\BaseController;
 use CodeMommy\CachePHP\Cache;
 use CodeMommy\RequestPHP\Request;
 use MatthiasMullie\Minify;
 use Model\AllowDomain;
 
-class Core
+/**
+ * Class HomeController
+ * @package Controller
+ */
+class CacheController extends BaseController
 {
     const DEFAULT_CONTENT      = '';
     const DEFAULT_CONTENT_TYPE = '';
@@ -22,10 +27,11 @@ class Core
     private $outputContent     = null;
 
     /**
-     * Core constructor.
+     * HomeController constructor.
      */
     public function __construct()
     {
+        parent::__construct();
         $this->outputContentType = self::DEFAULT_CONTENT_TYPE;
         $this->outputContent = self::DEFAULT_CONTENT;
         return;
@@ -178,17 +184,17 @@ class Core
         $files = explode(';', $inputFile);
         $this->outputContent = '';
         foreach ($files as $file) {
-            // è¿‡æ»¤ç©ºæ–‡ä»¶
+            // ¹ýÂË¿ÕÎÄ¼þ
             if (empty($file)) {
                 continue;
             }
-            // åˆ¤æ–­åŸŸåæ˜¯å¦å…è®¸
+            // ÅÐ¶ÏÓòÃûÊÇ·ñÔÊÐí
             $informationURL = parse_url($file);
             $host = isset($informationURL['host']) ? $informationURL['host'] : '';
             if (!AllowDomain::isAllow($host)) {
                 return $this->information(0, sprintf('Host %s is not allowed.', $host), null);
             }
-            // æ·»åŠ ç‰ˆæœ¬
+            // Ìí¼Ó°æ±¾
             if (!empty($inputVersion)) {
                 $file .= sprintf('?v=%s', $inputVersion);
             }
@@ -201,17 +207,17 @@ class Core
                 $this->outputContent .= $resultCache[1];
                 continue;
             }
-            // èŽ·å–å†…å®¹
+            // »ñÈ¡ÄÚÈÝ
             $result = $this->getFile($file);
             if (empty($result)) {
                 return $this->information(0, sprintf('Can not get file.', $host), null);
             }
-            // èŽ·å–å¤´
+            // »ñÈ¡Í·
             $this->outputContentType = isset($result['information']['content_type']) ? $result['information']['content_type'] : self::DEFAULT_CONTENT_TYPE;
             if (!empty($this->outputContentType) && strpos($this->outputContentType, ';') === false) {
                 $this->outputContentType .= '; charset=';
             }
-            // å¤„ç†å†…å®¹
+            // ´¦ÀíÄÚÈÝ
             $result['content'] = $this->handleContent($file, $result['content'], $this->outputContentType, $inputVersion);
             $this->outputContent .= $result['content'];
             // Set Cache
@@ -236,5 +242,14 @@ class Core
         header(sprintf('Content-type: %s', $this->outputContentType));
         echo($this->outputContent);
         return true;
+    }
+
+    /**
+     * @return bool
+     */
+    public function index()
+    {
+        $this->show();
+        return '';
     }
 }

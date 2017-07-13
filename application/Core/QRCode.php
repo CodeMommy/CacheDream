@@ -5,6 +5,8 @@
  * @author Candison November <www.kandisheng.com>
  */
 
+namespace Core;
+
 use BaconQrCode\Renderer\Image\Png;
 use BaconQrCode\Writer;
 use BaconQrCode\Common\ErrorCorrectionLevel;
