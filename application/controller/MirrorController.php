@@ -7,7 +7,7 @@
 
 namespace Controller;
 
-use CodeMommy\WebPHP\Input;
+use CodeMommy\RequestPHP\Request;
 
 /**
  * Class MirrorController
@@ -28,7 +28,7 @@ class MirrorController extends BaseController
      */
     public function index()
     {
-        $project = Input::get('project', '');
+        $project = Request::inputGet('project', '');
         return $this->template('mirror/' . $project);
     }
 }

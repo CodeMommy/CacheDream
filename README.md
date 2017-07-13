@@ -1,11 +1,10 @@
-# Mirrors.mom
+# CacheDream
 
 ## Overview
 
-
 > Cache for development in China
 
-Visit [Website](http://www.mirrors.mom) to get more information.
+Visit [Website](http://www.cachedream.com) to get more information.
 
 ## Author
 
@@ -15,5 +14,5 @@ Visit [Website](http://www.mirrors.mom) to get more information.
 
 ## More
 
-- [Feedback](https://github.com/CodeMommy/Mirrors/issues)
+- [Feedback](https://github.com/CodeMommy/CacheDream/issues)
 - [About CodeMommy](https://github.com/CodeMommy/CodeMommy)

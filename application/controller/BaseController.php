@@ -8,9 +8,9 @@
 namespace Controller;
 
 use CodeMommy\WebPHP\Controller;
-use CodeMommy\WebPHP\Output;
-use CodeMommy\WebPHP\Config;
-use CodeMommy\WebPHP\Me;
+use CodeMommy\WebPHP\View;
+use CodeMommy\ConfigPHP\Config;
+use CodeMommy\RequestPHP\Request;
 
 /**
  * Class BaseController
@@ -45,12 +45,12 @@ class BaseController extends Controller
         } else {
             $this->data['title'] .= ' - ';
         }
-        $this->data['root'] = Me::root();
-        if (Me::domain() == 'www.mirrors.mom' || Me::domain() == 'mirrors.mom') {
+        $this->data['root'] = Request::root();
+        if (Request::domain() == 'www.mirrors.mom' || Request::domain() == 'mirrors.mom') {
             $this->data['static'] = 'http://static.shareany.com/product/mirrors';
         } else {
-            $this->data['static'] = Me::root() . 'static';
+            $this->data['static'] = Request::root() . 'static';
         }
-        return Output::template($view, $this->data);
+        return View::render($view, $this->data);
     }
 }

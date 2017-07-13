@@ -7,7 +7,7 @@
 
 namespace Controller;
 
-use CodeMommy\WebPHP\Config;
+use CodeMommy\ConfigPHP\Config;
 
 /**
  * Class HomeController

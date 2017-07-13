@@ -6,7 +6,6 @@
 /composer.lock
 
 #Cache
-/application/cache/smarty_template/*.php
-/application/cache/smarty_cache/*.php
+/application/_runtime/
 /public/static/upload/*
 *.log
