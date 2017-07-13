@@ -7,17 +7,17 @@
 
 namespace Controller\Tool;
 
-use Controller\BaseController;
+use CodeMommy\WebPHP\Controller;
 use CodeMommy\CachePHP\Cache;
 use CodeMommy\RequestPHP\Request;
 use MatthiasMullie\Minify;
 use Model\AllowDomain;
 
 /**
- * Class HomeController
- * @package Controller
+ * Class CacheController
+ * @package Controller\Tool
  */
-class CacheController extends BaseController
+class CacheController extends Controller
 {
     const DEFAULT_CONTENT      = '';
     const DEFAULT_CONTENT_TYPE = '';
@@ -236,7 +236,7 @@ class CacheController extends BaseController
      * Show
      * @return bool
      */
-    public function show()
+    private function show()
     {
         $this->output();
         header(sprintf('Content-type: %s', $this->outputContentType));

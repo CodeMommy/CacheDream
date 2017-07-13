@@ -5,15 +5,16 @@
  * @author Candison November <www.kandisheng.com>
  */
 
-namespace Controller;
+namespace Controller\Page;
 
 use CodeMommy\ConfigPHP\Config;
+use Controller\BaseViewController;
 
 /**
  * Class HomeController
- * @package Controller
+ * @package Controller\Page
  */
-class HomeController extends BaseController
+class HomeController extends BaseViewController
 {
     /**
      * HomeController constructor.

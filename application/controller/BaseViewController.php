@@ -15,7 +15,7 @@ use CodeMommy\RequestPHP\Request;
  * Class BaseController
  * @package Controller
  */
-class BaseController extends Controller
+class BaseViewController extends Controller
 {
     protected $data   = null;
     protected $option = null;

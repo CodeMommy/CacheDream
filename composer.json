@@ -3,7 +3,8 @@
   "version": "0.0.3",
   "description": "Cache for development in China",
   "keywords": [
-    "CacheDream"
+    "CacheDream",
+    "Cache"
   ],
   "license": "Apache",
   "homepage": "http://www.cachedream.com",

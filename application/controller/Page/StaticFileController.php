@@ -5,17 +5,26 @@
  * @author Candison November <www.kandisheng.com>
  */
 
-namespace Controller;
+namespace Controller\Page;
 
 use CodeMommy\ConfigPHP\Config;
 use CodeMommy\RequestPHP\Request;
+use Controller\BaseViewController;
 
 /**
- * Class HomeController
- * @package Controller
+ * Class StaticFileController
+ * @package Controller\Page
  */
-class StaticFileController extends BaseController
+class StaticFileController extends BaseViewController
 {
+    /**
+     * HomeController constructor.
+     */
+    public function __construct()
+    {
+        parent::__construct();
+    }
+
     /**
      * 删除路径两边的斜杠
      *
@@ -81,14 +90,6 @@ class StaticFileController extends BaseController
             return $type;
         }
         return 'unknown';
-    }
-
-    /**
-     * HomeController constructor.
-     */
-    public function __construct()
-    {
-        parent::__construct();
     }
 
     /**

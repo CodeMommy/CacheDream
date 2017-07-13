@@ -5,15 +5,16 @@
  * @author Candison November <www.kandisheng.com>
  */
 
-namespace Controller;
+namespace Controller\Page;
 
 use CodeMommy\RequestPHP\Request;
+use Controller\BaseViewController;
 
 /**
  * Class MirrorController
- * @package Controller
+ * @package Controller\Page
  */
-class MirrorController extends BaseController
+class MirrorController extends BaseViewController
 {
     /**
      * MirrorController constructor.

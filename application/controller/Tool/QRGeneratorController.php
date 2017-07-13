@@ -7,14 +7,14 @@
 
 namespace Controller\Tool;
 
-use Controller\BaseController;
+use CodeMommy\WebPHP\Controller;
 use Core\QRCode;
 
 /**
  * Class QRGeneratorController
  * @package Controller\Tool
  */
-class QRGeneratorController extends BaseController
+class QRGeneratorController extends Controller
 {
     /**
      * QRGeneratorController constructor.

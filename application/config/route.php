@@ -8,13 +8,11 @@ return array(
     // Route Configure
     // any, get, post...
     'get'  => array(
-        ''                       => 'HomeController.index',
-        'about'                  => 'HomeController.about',
-        'staticfile'             => 'StaticFileController.index',
-        'interface/cache'                  => 'Tool.CacheController.index',
-        'interface/qr-generator' => 'Tool.QRGeneratorController.index'
-    ),
-    'any'  => array(
-        'mirror/{project}' => 'MirrorController.index'
+        ''                       => 'Page.HomeController.index',
+        'about'                  => 'Page.HomeController.about',
+        'staticfile'             => 'Page.StaticFileController.index',
+        'interface/cache'        => 'Tool.CacheController.index',
+        'interface/qr-generator' => 'Tool.QRGeneratorController.index',
+        'mirror/{project}'       => 'MirrorController.index'
     )
 );

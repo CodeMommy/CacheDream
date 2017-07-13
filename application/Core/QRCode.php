@@ -13,6 +13,7 @@ use BaconQrCode\Common\ErrorCorrectionLevel;
 
 /**
  * Class QRCode
+ * @package Core
  */
 class QRCode extends Png
 {
