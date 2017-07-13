@@ -1,5 +1,7 @@
 <?php
 
+use CodeMommy\WebPHP\Environment;
+
 $projects = array();
 
 $projects['package'] = array('name' => 'Package Repository', 'projects' => array());

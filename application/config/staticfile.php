@@ -1,5 +1,7 @@
 <?php
 
+use CodeMommy\WebPHP\Environment;
+
 return array(
     'debug'     => true,
     'site_name' => 'CodeMommy Static File',

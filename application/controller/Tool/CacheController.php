@@ -1,8 +1,8 @@
 <?php
 
 /**
- * CodeMommy Cache
- * @author  Candison November <www.kandisheng.com>
+ * CodeMommy CacheDream
+ * @author Candison November <www.kandisheng.com>
  */
 
 namespace Controller\Tool;

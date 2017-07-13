@@ -1,5 +1,7 @@
 <?php
 
+use CodeMommy\WebPHP\Environment;
+
 return array(
     // Route Type: pathinfo, map or symfony
     'type' => 'symfony',
@@ -8,8 +10,8 @@ return array(
     'get'  => array(
         ''                       => 'HomeController.index',
         'about'                  => 'HomeController.about',
-        'staticfile'                  => 'StaticFileController.index',
-        'cache'                  => 'Tool.CacheController.index',
+        'staticfile'             => 'StaticFileController.index',
+        'interface/cache'                  => 'Tool.CacheController.index',
         'interface/qr-generator' => 'Tool.QRGeneratorController.index'
     ),
     'any'  => array(

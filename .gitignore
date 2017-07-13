@@ -1,12 +1,13 @@
-#IDE
-/.idea/
+# IDE
+/.idea
 
-#Composer
-/vendor/
+# Composer
+/vendor
 /composer.lock
 
-#Cache
-/application/_runtime/
-/public/static/upload/*
+# Test
+/application/environment.yaml
+
+# Cache
+/application/_runtime
 *.log
-environment.yaml
