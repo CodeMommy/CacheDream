@@ -9,28 +9,28 @@ $projects['frontend'] = array('name' => 'Front End', 'projects' => array());
 $projects['linux'] = array('name' => 'Linux', 'projects' => array());
 $projects['link'] = array('name' => 'Other Hosting', 'projects' => array());
 
-array_push($projects['package']['projects'], array('name' => 'Packagist (Composer)', 'url' => '/mirror/packagist/', 'about' => 'The PHP Package Repository'));
-array_push($projects['package']['projects'], array('name' => 'PIP', 'url' => '/mirror/pip/', 'about' => 'Python Package Index'));
-array_push($projects['package']['projects'], array('name' => 'GEM', 'url' => '/mirror/gem/', 'about' => 'GEM Package Index'));
-array_push($projects['package']['projects'], array('name' => 'NPM', 'url' => '/mirror/npm/', 'about' => 'Package Manager for JavaScript'));
-array_push($projects['package']['projects'], array('name' => 'Maven', 'url' => '/mirror/maven/', 'about' => 'Apache Maven is a software project management and comprehension tool'));
-array_push($projects['package']['projects'], array('name' => 'SBT', 'url' => '/mirror/sbt/', 'about' => 'Simple Build Tool'));
-array_push($projects['package']['projects'], array('name' => 'MELPA', 'url' => '/mirror/emacs-melpa/', 'about' => 'Milkypostman’s Emacs Lisp Package Archive'));
+array_push($projects['package']['projects'], array('name' => 'Packagist (Composer)', 'url' => '/cache/packagist/', 'about' => 'The PHP Package Repository'));
+array_push($projects['package']['projects'], array('name' => 'PIP', 'url' => '/cache/pip/', 'about' => 'Python Package Index'));
+array_push($projects['package']['projects'], array('name' => 'GEM', 'url' => '/cache/gem/', 'about' => 'GEM Package Index'));
+array_push($projects['package']['projects'], array('name' => 'NPM', 'url' => '/cache/npm/', 'about' => 'Package Manager for JavaScript'));
+array_push($projects['package']['projects'], array('name' => 'Maven', 'url' => '/cache/maven/', 'about' => 'Apache Maven is a software project management and comprehension tool'));
+array_push($projects['package']['projects'], array('name' => 'SBT', 'url' => '/cache/sbt/', 'about' => 'Simple Build Tool'));
+array_push($projects['package']['projects'], array('name' => 'MELPA', 'url' => '/cache/emacs-melpa/', 'about' => 'Milkypostman’s Emacs Lisp Package Archive'));
 
 array_push($projects['frontend']['projects'], array('name' => 'StaticFile', 'url' => '/staticfile', 'about' => 'Professional front-end library CDN hosting'));
 array_push($projects['frontend']['projects'], array('name' => 'Cache', 'url' => 'http://www.cachedream.com/', 'about' => 'Cache'));
-array_push($projects['frontend']['projects'], array('name' => 'jQuery', 'url' => '/mirror/jquery/', 'about' => 'jQuery is a fast, small, and feature-rich JavaScript library'));
-array_push($projects['frontend']['projects'], array('name' => 'Google Fonts', 'url' => '/mirror/google-fonts/', 'about' => 'GoogleFonts.com has all the most relevant and up-to-date Google Fonts news and information'));
-array_push($projects['frontend']['projects'], array('name' => 'Google Hosted Libraries (Google AJAX)', 'url' => '/mirror/google-hosted-libraries/', 'about' => 'The Google Hosted Libraries is a stable, reliable, high-speed, globally available content distribution network for the most popular, open-source JavaScript libraries
+array_push($projects['frontend']['projects'], array('name' => 'jQuery', 'url' => '/cache/jquery/', 'about' => 'jQuery is a fast, small, and feature-rich JavaScript library'));
+array_push($projects['frontend']['projects'], array('name' => 'Google Fonts', 'url' => '/cache/google-fonts/', 'about' => 'GoogleFonts.com has all the most relevant and up-to-date Google Fonts news and information'));
+array_push($projects['frontend']['projects'], array('name' => 'Google Hosted Libraries (Google AJAX)', 'url' => '/cache/google-hosted-libraries/', 'about' => 'The Google Hosted Libraries is a stable, reliable, high-speed, globally available content distribution network for the most popular, open-source JavaScript libraries
 '));
-array_push($projects['frontend']['projects'], array('name' => 'Baidu TTS', 'url' => '/mirror/baidu-tts/', 'about' => 'Engine of text to audio from Baidu Fanyi'));
-array_push($projects['frontend']['projects'], array('name' => 'QR Generator', 'url' => '/mirror/qr-generator/', 'about' => 'QR Code Generator'));
-array_push($projects['frontend']['projects'], array('name' => 'Taobao IP', 'url' => '/mirror/taobao-ip/', 'about' => 'Taobao IP'));
-array_push($projects['frontend']['projects'], array('name' => 'Gravatar', 'url' => '/mirror/gravatar/', 'about' => 'Globally Recognized Avatar'));
+array_push($projects['frontend']['projects'], array('name' => 'Baidu TTS', 'url' => '/cache/baidu-tts/', 'about' => 'Engine of text to audio from Baidu Fanyi'));
+array_push($projects['frontend']['projects'], array('name' => 'QR Generator', 'url' => '/cache/qr-generator/', 'about' => 'QR Code Generator'));
+array_push($projects['frontend']['projects'], array('name' => 'Taobao IP', 'url' => '/cache/taobao-ip/', 'about' => 'Taobao IP'));
+array_push($projects['frontend']['projects'], array('name' => 'Gravatar', 'url' => '/cache/gravatar/', 'about' => 'Globally Recognized Avatar'));
 
-array_push($projects['linux']['projects'], array('name' => 'Ubuntu', 'url' => '/mirror/ubuntu/', 'about' => 'Ubuntu is an open source software platform that runs everywhere from the smartphone, the tablet and the PC to the server and the cloud'));
-array_push($projects['linux']['projects'], array('name' => 'CentOS', 'url' => '/mirror/centos/', 'about' => 'The CentOS Project is a community-driven free software effort focused on delivering a robust open source ecosystem'));
-array_push($projects['linux']['projects'], array('name' => 'Deepin', 'url' => '/mirror/deepin/', 'about' => '深度操作系统'));
+array_push($projects['linux']['projects'], array('name' => 'Ubuntu', 'url' => '/cache/ubuntu/', 'about' => 'Ubuntu is an open source software platform that runs everywhere from the smartphone, the tablet and the PC to the server and the cloud'));
+array_push($projects['linux']['projects'], array('name' => 'CentOS', 'url' => '/cache/centos/', 'about' => 'The CentOS Project is a community-driven free software effort focused on delivering a robust open source ecosystem'));
+array_push($projects['linux']['projects'], array('name' => 'Deepin', 'url' => '/cache/deepin/', 'about' => '深度操作系统'));
 
 array_push($projects['link']['projects'], array('name' => 'CDNJS', 'url' => 'https://cdnjs.com/', 'about' => 'CDNJS'));
 array_push($projects['link']['projects'], array('name' => 'jsDelivr', 'url' => 'http://www.jsdelivr.com/', 'about' => 'A free super-fast CDN for developers and webmasters'));

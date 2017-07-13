@@ -13,6 +13,6 @@ return array(
         'staticfile'             => 'Page.StaticFileController.index',
         'interface/cache'        => 'Tool.CacheController.index',
         'interface/qr-generator' => 'Tool.QRGeneratorController.index',
-        'mirror/{project}'       => 'Page.MirrorController.index'
+        'cache/{project}'        => 'Page.MirrorController.index'
     )
 );
