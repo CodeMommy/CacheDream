@@ -7,9 +7,9 @@
 
 namespace Base;
 
+use BaconQrCode\Common\ErrorCorrectionLevel;
 use BaconQrCode\Renderer\Image\Png;
 use BaconQrCode\Writer;
-use BaconQrCode\Common\ErrorCorrectionLevel;
 
 /**
  * Class QRCode
@@ -24,7 +24,7 @@ class QRCode extends Png
      */
     public function __construct()
     {
-        $this->text = 'Hello';
+        $this->text = 'Hello World';
         $this->setWidth(500);
         $this->setHeight(500);
         $this->setMargin(0);

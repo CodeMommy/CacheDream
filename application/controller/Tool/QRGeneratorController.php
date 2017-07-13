@@ -31,7 +31,7 @@ class QRGeneratorController extends Controller
     {
         $dataWidth = intval(isset($_GET['w']) ? $_GET['w'] : '500');
         $dataHeight = intval(isset($_GET['h']) ? $_GET['h'] : '500');
-        $dataText = isset($_GET['t']) ? $_GET['t'] : 'Hello';
+        $dataText = isset($_GET['t']) ? $_GET['t'] : 'Hello World';
         $qr = new QRCode();
         $qr->setWidth($dataWidth);
         $qr->setHeight($dataHeight);

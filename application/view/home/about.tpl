@@ -1,4 +1,3 @@
-{assign var="title" value="About CacheDream - "}
 {assign var="keywords" value="About CacheDream,"}
 {assign var="description" value="About CacheDream. "}
 {extends file='../base/base.tpl'}

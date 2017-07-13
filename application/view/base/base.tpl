@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>{$title}CacheDream - an open source project that provide mirrors service for developers</title>
+    <title>{$title}</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,7 +20,8 @@
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
             <a class="navbar-brand" href="{$root}" title="CacheDream">
-                <img alt="CacheDream" src="{$static}/picture/logo.png" style="width:32px; height:32px; margin-top: -6px;">
+                <img alt="CacheDream" src="{$static}/picture/logo.png"
+                     style="width:32px; height:32px; margin-top: -6px;">
             </a>
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                     data-target="#bs-example-navbar-collapse-1"

@@ -8,13 +8,13 @@
 namespace Controller\Page;
 
 use CodeMommy\RequestPHP\Request;
-use Base\BaseViewController;
+use Base\ViewController;
 
 /**
  * Class MirrorController
  * @package Controller\Page
  */
-class MirrorController extends BaseViewController
+class MirrorController extends ViewController
 {
     /**
      * MirrorController constructor.
@@ -30,6 +30,6 @@ class MirrorController extends BaseViewController
     public function index()
     {
         $project = Request::inputGet('project', '');
-        return $this->template('mirror/' . $project);
+        return $this->render('cache/' . $project);
     }
 }

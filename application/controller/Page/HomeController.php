@@ -8,13 +8,13 @@
 namespace Controller\Page;
 
 use CodeMommy\ConfigPHP\Config;
-use Base\BaseViewController;
+use Base\ViewController;
 
 /**
  * Class HomeController
  * @package Controller\Page
  */
-class HomeController extends BaseViewController
+class HomeController extends ViewController
 {
     /**
      * HomeController constructor.
@@ -30,7 +30,7 @@ class HomeController extends BaseViewController
     public function index()
     {
         $this->data['projects'] = Config::get('project');
-        return $this->template('home/index');
+        return $this->render('home/index');
     }
 
     /**
@@ -38,6 +38,7 @@ class HomeController extends BaseViewController
      */
     public function about()
     {
-        return $this->template('home/about');
+        $this->data['title'] = 'About CacheDream';
+        return $this->render('home/about');
     }
 }

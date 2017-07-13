@@ -19,12 +19,12 @@ use Model\AllowDomain;
  */
 class CacheController extends Controller
 {
-    const DEFAULT_CONTENT      = '';
+    const DEFAULT_CONTENT = '';
     const DEFAULT_CONTENT_TYPE = '';
-    const CACHE_TIMEOUT        = 3600 * 24 * 365;
+    const CACHE_TIMEOUT = 3600 * 24 * 365;
 
     private $outputContentType = null;
-    private $outputContent     = null;
+    private $outputContent = null;
 
     /**
      * HomeController constructor.

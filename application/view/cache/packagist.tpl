@@ -1,4 +1,4 @@
-{assign var="title" value="Packagist (Composer) Mirrors - "}
+{assign var="title" value="Packagist (Composer) Mirrors - {$title}"}
 {assign var="keywords" value="Mirrors of Packagist (Composer),"}
 {assign var="description" value="Mirrors of Packagist (Composer). "}
 {extends file='../base/base.tpl'}
