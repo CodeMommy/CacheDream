@@ -5,7 +5,7 @@
  * @author Candison November <www.kandisheng.com>
  */
 
-namespace Core;
+namespace Base;
 
 use BaconQrCode\Renderer\Image\Png;
 use BaconQrCode\Writer;

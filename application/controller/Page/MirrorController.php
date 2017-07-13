@@ -8,7 +8,7 @@
 namespace Controller\Page;
 
 use CodeMommy\RequestPHP\Request;
-use Controller\BaseViewController;
+use Base\BaseViewController;
 
 /**
  * Class MirrorController

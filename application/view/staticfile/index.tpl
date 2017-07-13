@@ -1,4 +1,4 @@
-{extends file='../base/base.tpl'}
+{extends file='./base.tpl'}
 {block name=main}
     <link rel="stylesheet" href="{$static}/staticfile/style/index.css">
     {if not empty($about)}

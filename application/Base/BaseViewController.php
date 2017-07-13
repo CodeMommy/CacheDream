@@ -5,7 +5,7 @@
  * @author Candison November <www.kandisheng.com>
  */
 
-namespace Controller;
+namespace Base;
 
 use CodeMommy\WebPHP\Controller;
 use CodeMommy\WebPHP\View;

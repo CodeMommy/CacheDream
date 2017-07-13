@@ -7,9 +7,10 @@
 
 namespace Controller\Page;
 
+use CodeMommy\WebPHP\View;
 use CodeMommy\ConfigPHP\Config;
 use CodeMommy\RequestPHP\Request;
-use Controller\BaseViewController;
+use Base\BaseViewController;
 
 /**
  * Class StaticFileController
@@ -23,6 +24,30 @@ class StaticFileController extends BaseViewController
     public function __construct()
     {
         parent::__construct();
+    }
+
+    /**
+     * @param $view
+     *
+     * @return bool
+     */
+    private function templateStaticFile($view)
+    {
+        foreach ($this->option as $key => $value) {
+            $this->data[$key] = $value;
+        }
+        if (empty($this->data['title'])) {
+            $this->data['title'] = Config::get('staticfile.site_name');
+        } else {
+            $this->data['title'] .= ' - ' . Config::get('staticfile.site_name');
+        }
+        $this->data['root'] = Request::root();
+        if (in_array(Request::domain(), Config::get('staticfile.domain'))) {
+            $this->data['static'] = Config::get('staticfile.static');
+        } else {
+            $this->data['static'] = Request::root() . 'static';
+        }
+        return View::render($view, $this->data);
     }
 
     /**
@@ -151,6 +176,6 @@ class StaticFileController extends BaseViewController
         $this->data['keyword'] = str_replace('/', ',', $path);
         $this->data['word'] = str_replace('/', ' ', $path);
         $this->data['title'] = $this->data['word'];
-        return $this->template('staticfile/home/index');
+        return $this->templateStaticFile('staticfile/index');
     }
 }

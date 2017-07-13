@@ -8,7 +8,7 @@
 namespace Controller\Page;
 
 use CodeMommy\ConfigPHP\Config;
-use Controller\BaseViewController;
+use Base\BaseViewController;
 
 /**
  * Class HomeController

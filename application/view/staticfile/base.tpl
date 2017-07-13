@@ -6,10 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="CodeMommy.com">
-    <meta name="keywords" content="CodeMommy Static File For Free Forever,{$keyword}">
-    <meta name="description" content="CodeMommy Static File For Free Forever. {$word}">
-    <link rel="shortcut icon" type="image/vnd.microsoft.icon"
-          href="//static.shareany.com/public/favicon/favicon.ico">
+    <meta name="keywords" content="CacheDream StaticFile For Free Forever,{$keyword}">
+    <meta name="description" content="CacheDream StaticFile For Free Forever. {$word}">
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="{$static}/icon/favicon.ico">
     <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="{$static}/staticfile/style/theme.css">
 </head>
@@ -18,8 +17,8 @@
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            {*<a class="navbar-brand" href="{$root}" title="CodeMommy Static File">*}
-            {*<img alt="CodeMommy Static File" src="{$static}/picture/logo.png">*}
+            {*<a class="navbar-brand" href="{$root}" title="CacheDream StaticFile">*}
+            {*<img alt="CacheDream StaticFile" src="{$static}/picture/logo.png">*}
             {*</a>*}
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                     data-target="#bs-example-navbar-collapse-1"
@@ -80,7 +79,7 @@
                         {*<li><a href="#">Separated link</a></li>*}
                     </ul>
                 </li>
-                <li><a href="https://github.com/CodeMommy/StaticFile" target="_blank" title="GitHub">GitHub</a></li>
+                {*<li><a href="https://github.com/CodeMommy/StaticFile" target="_blank" title="GitHub">GitHub</a></li>*}
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -89,11 +88,11 @@
 </nav>
 <div class="container-fluid" style="padding:0;padding-top:50px;">
     {block name=main}{/block}
-    <div style="text-align:center;">
-        <a href="http://www.qiniu.com/" target="_blank" title="Qiniu">
-            <img src="//assets.qiniu.com/qiniu-transparent.png">
-        </a>
-    </div>
+    {*<div style="text-align:center;">*}
+        {*<a href="http://www.qiniu.com/" target="_blank" title="Qiniu">*}
+            {*<img src="//assets.qiniu.com/qiniu-transparent.png">*}
+        {*</a>*}
+    {*</div>*}
 </div>
 <div>
     <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>

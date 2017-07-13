@@ -8,7 +8,7 @@
 namespace Controller\Tool;
 
 use CodeMommy\WebPHP\Controller;
-use Core\QRCode;
+use Base\QRCode;
 
 /**
  * Class QRGeneratorController

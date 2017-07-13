@@ -31,6 +31,7 @@ array_push($projects['linux']['projects'], array('name' => 'CentOS', 'url' => '/
 array_push($projects['linux']['projects'], array('name' => 'Deepin', 'url' => '/mirror/deepin/', 'about' => '深度操作系统'));
 
 array_push($projects['link']['projects'], array('name' => 'StaticFile', 'url' => '/staticfile', 'about' => 'Professional front-end library CDN hosting'));
+array_push($projects['link']['projects'], array('name' => 'Cache', 'url' => 'http://www.cachedream.com/', 'about' => 'Cache'));
 array_push($projects['link']['projects'], array('name' => 'CDNJS', 'url' => 'https://cdnjs.com/', 'about' => 'CDNJS'));
 array_push($projects['link']['projects'], array('name' => 'jsDelivr', 'url' => 'http://www.jsdelivr.com/', 'about' => 'A free super-fast CDN for developers and webmasters'));
 array_push($projects['link']['projects'], array('name' => 'Google Hosted Libraries', 'url' => 'https://developers.google.com/speed/libraries/', 'about' => 'The Google Hosted Libraries is a stable, reliable, high-speed, globally available content distribution network for the most popular, open-source JavaScript libraries'));
