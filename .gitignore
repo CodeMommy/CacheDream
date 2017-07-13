@@ -9,3 +9,4 @@
 /application/_runtime/
 /public/static/upload/*
 *.log
+environment.yaml

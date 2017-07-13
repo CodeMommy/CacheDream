@@ -1,14 +1,12 @@
 <?php
 
+use CodeMommy\WebPHP\Environment;
+
 return array(
-    // Cache Type: apc, memcache, xcache, redis
-    'type'     => 'redis',
-    'memcache' => array(
-        'host' => 'localhost',
-        'port' => 11211
-    ),
-    'redis'    => array(
-        'host' => 'localhost',
-        'port' => 6379
-    )
+    'driver'   => 'Redis', // Redis, Memcached, APC, XCache
+    'server'   => Environment::get('cache.redis.server', 'localhost'),
+    'port'     => Environment::get('cache.redis.port', 6379),
+    'password' => Environment::get('cache.redis.password', ''),
+    'database' => Environment::get('cache.redis.database', 0),
+    'prefix'   => Environment::get('cache.redis.prefix', '')
 );
