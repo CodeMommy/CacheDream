@@ -17,6 +17,8 @@ array_push($projects['package']['projects'], array('name' => 'Maven', 'url' => '
 array_push($projects['package']['projects'], array('name' => 'SBT', 'url' => '/mirror/sbt/', 'about' => 'Simple Build Tool'));
 array_push($projects['package']['projects'], array('name' => 'MELPA', 'url' => '/mirror/emacs-melpa/', 'about' => 'Milkypostman’s Emacs Lisp Package Archive'));
 
+array_push($projects['frontend']['projects'], array('name' => 'StaticFile', 'url' => '/staticfile', 'about' => 'Professional front-end library CDN hosting'));
+array_push($projects['frontend']['projects'], array('name' => 'Cache', 'url' => 'http://www.cachedream.com/', 'about' => 'Cache'));
 array_push($projects['frontend']['projects'], array('name' => 'jQuery', 'url' => '/mirror/jquery/', 'about' => 'jQuery is a fast, small, and feature-rich JavaScript library'));
 array_push($projects['frontend']['projects'], array('name' => 'Google Fonts', 'url' => '/mirror/google-fonts/', 'about' => 'GoogleFonts.com has all the most relevant and up-to-date Google Fonts news and information'));
 array_push($projects['frontend']['projects'], array('name' => 'Google Hosted Libraries (Google AJAX)', 'url' => '/mirror/google-hosted-libraries/', 'about' => 'The Google Hosted Libraries is a stable, reliable, high-speed, globally available content distribution network for the most popular, open-source JavaScript libraries
@@ -30,8 +32,6 @@ array_push($projects['linux']['projects'], array('name' => 'Ubuntu', 'url' => '/
 array_push($projects['linux']['projects'], array('name' => 'CentOS', 'url' => '/mirror/centos/', 'about' => 'The CentOS Project is a community-driven free software effort focused on delivering a robust open source ecosystem'));
 array_push($projects['linux']['projects'], array('name' => 'Deepin', 'url' => '/mirror/deepin/', 'about' => '深度操作系统'));
 
-array_push($projects['link']['projects'], array('name' => 'StaticFile', 'url' => '/staticfile', 'about' => 'Professional front-end library CDN hosting'));
-array_push($projects['link']['projects'], array('name' => 'Cache', 'url' => 'http://www.cachedream.com/', 'about' => 'Cache'));
 array_push($projects['link']['projects'], array('name' => 'CDNJS', 'url' => 'https://cdnjs.com/', 'about' => 'CDNJS'));
 array_push($projects['link']['projects'], array('name' => 'jsDelivr', 'url' => 'http://www.jsdelivr.com/', 'about' => 'A free super-fast CDN for developers and webmasters'));
 array_push($projects['link']['projects'], array('name' => 'Google Hosted Libraries', 'url' => 'https://developers.google.com/speed/libraries/', 'about' => 'The Google Hosted Libraries is a stable, reliable, high-speed, globally available content distribution network for the most popular, open-source JavaScript libraries'));

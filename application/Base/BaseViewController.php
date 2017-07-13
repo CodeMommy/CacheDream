@@ -45,7 +45,7 @@ class BaseViewController extends Controller
             $this->data['title'] .= ' - ';
         }
         $this->data['root'] = Request::root();
-        if (Request::domain() == 'www.cachecode.com' || Request::domain() == 'cachecode.com') {
+        if (Request::domain() == 'www.cachedream.com' || Request::domain() == 'cachedream.com') {
             $this->data['static'] = '//cache.shareany.com/?v=1&f=http://www.cachedream.com/static';
         } else {
             $this->data['static'] = Request::root() . 'static';
