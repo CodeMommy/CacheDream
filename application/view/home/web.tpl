@@ -1,6 +1,8 @@
-{extends file='./base.tpl'}
+{assign var="keywords" value=""}
+{assign var="description" value=""}
+{extends file='../base/base.tpl'}
 {block name=main}
-    <link rel="stylesheet" href="{$static}/staticfile/style/index.css">
+    <link rel="stylesheet" href="{$static}/style/index.css">
     {if not empty($about)}
         <div style="background-color: #008cd6;color:#fff; padding:8px;">
             {if not empty($logo)}
@@ -69,4 +71,31 @@
             </tr>
         {/foreach}
     </table>
+{/block}
+{block name=javascript}
+    <script>
+        function search() {
+            $("#project").find("tr.project").each(function () {
+                var text = $.trim(String($(this).attr('data-text'))).toLowerCase();
+                var keyword = $.trim(String($("#search_input").val())).toLowerCase();
+                if (keyword == "") {
+                    $(this).show();
+                } else {
+                    if (text.indexOf(keyword) >= 0) {
+                        $(this).show();
+                    } else {
+                        $(this).hide();
+                    }
+                }
+            });
+        }
+        $("#search_input").keydown(function () {
+            if (event.keyCode == "13") {
+                search();
+            }
+        });
+        $("#search_input").on("input", function () {
+            search();
+        });
+    </script>
 {/block}

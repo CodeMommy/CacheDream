@@ -11,8 +11,9 @@ return array(
         ''                       => 'Page.HomeController.index',
         'about'                  => 'Page.HomeController.about',
         'web'                    => 'Page.WebController.index',
-        'interface/cache'        => 'Tool.CacheController.index',
-        'interface/qr-generator' => 'Tool.QRGeneratorController.index',
-        'cache/{project}'        => 'Page.MirrorController.index'
+        'merge'                  => 'Page.HomeController.merge',
+        'interface/merge'        => 'Tool.MergeController.index',
+        'interface/qr-generator' => 'Tool.QRCodeController.index',
+        'cache/{project}'        => 'Page.CacheController.index'
     )
 );

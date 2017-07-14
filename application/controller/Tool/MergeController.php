@@ -14,10 +14,10 @@ use MatthiasMullie\Minify;
 use Model\AllowDomain;
 
 /**
- * Class CacheController
+ * Class MergeController
  * @package Controller\Tool
  */
-class CacheController extends Controller
+class MergeController extends Controller
 {
     const DEFAULT_CONTENT = '';
     const DEFAULT_CONTENT_TYPE = '';

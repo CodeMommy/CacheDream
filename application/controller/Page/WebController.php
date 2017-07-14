@@ -156,6 +156,7 @@ class WebController extends ViewController
         } else {
             $this->data['title'] .= ' - Web Static File';
         }
-        return $this->render('web/index');
+        $this->data['isSearch'] = true;
+        return $this->render('home/web');
     }
 }

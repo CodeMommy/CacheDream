@@ -26,6 +26,7 @@ class ViewController extends Controller
     public function __construct()
     {
         $this->data = array();
+        $this->data['isSearch'] = false;
     }
 
     /**

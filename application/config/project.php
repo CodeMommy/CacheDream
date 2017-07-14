@@ -18,7 +18,7 @@ array_push($projects['package']['projects'], array('name' => 'SBT', 'url' => '/c
 array_push($projects['package']['projects'], array('name' => 'MELPA', 'url' => '/cache/emacs-melpa/', 'about' => 'Milkypostman’s Emacs Lisp Package Archive'));
 
 array_push($projects['frontend']['projects'], array('name' => 'Web Static File', 'url' => '/web/', 'about' => 'Professional front-end library CDN hosting'));
-array_push($projects['frontend']['projects'], array('name' => 'Cache', 'url' => 'http://www.cachedream.com/', 'about' => 'Cache'));
+array_push($projects['frontend']['projects'], array('name' => 'File Merge Tool', 'url' => '/merge/', 'about' => 'File Merge Tool'));
 array_push($projects['frontend']['projects'], array('name' => 'jQuery', 'url' => '/cache/jquery/', 'about' => 'jQuery is a fast, small, and feature-rich JavaScript library'));
 array_push($projects['frontend']['projects'], array('name' => 'Google Fonts', 'url' => '/cache/google-fonts/', 'about' => 'GoogleFonts.com has all the most relevant and up-to-date Google Fonts news and information'));
 array_push($projects['frontend']['projects'], array('name' => 'Google Hosted Libraries (Google AJAX)', 'url' => '/cache/google-hosted-libraries/', 'about' => 'The Google Hosted Libraries is a stable, reliable, high-speed, globally available content distribution network for the most popular, open-source JavaScript libraries

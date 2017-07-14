@@ -6,7 +6,7 @@
         <div class="well">
             <h2>About CacheDream</h2>
             <p>CacheDream is an open source project that provide mirrors service for developers.</p>
-            <p>GitHub: <a target="_blank" title="GitHub" href="https://github.com/CodeMommy/Mirrors">https://github.com/CodeMommy/CacheDream</a>
+            <p>GitHub: <a target="_blank" title="GitHub" href="https://github.com/CodeMommy/CacheDream">https://github.com/CodeMommy/CacheDream</a>
             </p>
         </div>
         <div class="alert alert-success" role="alert">求CDN赞助！求CDN赞助！！求CDN赞助！！！重要的事情说三遍！</div>

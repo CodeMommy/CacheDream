@@ -11,10 +11,10 @@ use CodeMommy\RequestPHP\Request;
 use Base\ViewController;
 
 /**
- * Class MirrorController
+ * Class CacheController
  * @package Controller\Page
  */
-class MirrorController extends ViewController
+class CacheController extends ViewController
 {
     /**
      * MirrorController constructor.

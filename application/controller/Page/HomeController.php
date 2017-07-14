@@ -38,7 +38,16 @@ class HomeController extends ViewController
      */
     public function about()
     {
-        $this->data['title'] = 'About CacheDream';
+        $this->data['title'] = 'About';
         return $this->render('home/about');
+    }
+
+    /**
+     * @return bool
+     */
+    public function merge()
+    {
+        $this->data['title'] = 'File Merge Tool';
+        return $this->render('home/merge');
     }
 }

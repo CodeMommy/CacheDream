@@ -11,13 +11,13 @@ use CodeMommy\WebPHP\Controller;
 use Base\QRCode;
 
 /**
- * Class QRGeneratorController
+ * Class QRCodeController
  * @package Controller\Tool
  */
-class QRGeneratorController extends Controller
+class QRCodeController extends Controller
 {
     /**
-     * QRGeneratorController constructor.
+     * QRCodeController constructor.
      */
     public function __construct()
     {
