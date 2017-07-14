@@ -1,5 +1,5 @@
 {assign var="baseKeyword" value="Mirrors,CacheDream"}
-{assign var="baseDescription" value="CacheDream is an open source project that provide mirrors service for developers."}
+{assign var="baseDescription" value="CacheDream is an open source project that provide cache service for developers."}
 <!DOCTYPE html>
 <html>
 <head>
