@@ -1,8 +1,8 @@
 {assign var="title" value="Deepin Mirrors - {$title}"}
 {assign var="keywords" value="Mirrors of Deepin,"}
 {assign var="description" value="Mirrors of Deepin. "}
-{extends file='../base/base.tpl'}
-{block name=main}
+{extends file="../base/base.tpl"}
+{block name="body"}
     <div class="container-fluid">
 
         <div class="well">

@@ -1,8 +1,7 @@
 {assign var="keywords" value=""}
 {assign var="description" value=""}
-{extends file='../base/base.tpl'}
-{block name=main}
-    <link rel="stylesheet" href="{$static}/style/index.css">
+{extends file="../base/base.tpl"}
+{block name="body"}
     {if not empty($about)}
         <div style="background-color: #008cd6;color:#fff; padding:8px;">
             {if not empty($logo)}
@@ -15,6 +14,9 @@
         <tr class="active">
             <th colspan="3">
                 <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>&nbsp;
+                <a href="{$root}" title="CacheDream">CacheDream</a> /
+                <a href="{$root}web/" title="Web Static File">Web Static File</a> /
+
                 {foreach from=$crumbs key=key item=value}
                     {if $key neq 'Root'}
                         /
@@ -72,7 +74,10 @@
         {/foreach}
     </table>
 {/block}
-{block name=javascript}
+{block name="style"}
+    <link rel="stylesheet" href="{$static}/style/index.css">
+{/block}
+{block name="script"}
     <script>
         function search() {
             $("#project").find("tr.project").each(function () {

@@ -1,8 +1,8 @@
 {assign var="title" value="GEM Cache - {$title}"}
 {assign var="keywords" value="Cache of GEM,"}
 {assign var="description" value="Cache of GEM. "}
-{extends file='../base/base.tpl'}
-{block name=main}
+{extends file="../base/base.tpl"}
+{block name="body"}
     <div class="container-fluid">
 
         <div class="well">

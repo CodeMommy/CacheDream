@@ -78,7 +78,7 @@ class WebController extends ViewController
      */
     private function getFileType($pathFull, $file)
     {
-        if (in_array($file, Config::get('staticfile.limit'))) {
+        if (in_array($file, Config::get('web.limit'))) {
             return 'hide';
         }
         if (is_dir($pathFull)) {
@@ -100,12 +100,12 @@ class WebController extends ViewController
         // 整理路径
         $path = Request::inputGet('path', '');
         $path = $this->removePathSlash($path);
-        $pathLocal = Config::get('staticfile.file_path') . $path;
+        $pathLocal = Config::get('web.filePath') . $path;
         // 列举目录里的文件
         $list = array();
         $logo = null;
         $about = null;
-        $cdn = Config::get('staticfile.cdn');
+        $cdn = Config::get('web.cdn');
         foreach ($this->listFolder($pathLocal) as $pathFull => $file) {
             $array = array();
             $array['pathFull'] = $pathFull;

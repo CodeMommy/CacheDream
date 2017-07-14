@@ -1,7 +1,7 @@
 {assign var="keywords" value="File Merge Tool,"}
 {assign var="description" value="File Merge Tool. "}
-{extends file='../base/base.tpl'}
-{block name=main}
+{extends file="../base/base.tpl"}
+{block name="body"}
     <div class="container-fluid">
         <div class="well">
             <h2>File Merge Tool</h2>

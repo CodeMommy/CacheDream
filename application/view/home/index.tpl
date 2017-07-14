@@ -1,8 +1,7 @@
 {assign var="keywords" value=""}
 {assign var="description" value=""}
-{extends file='../base/base.tpl'}
-{block name=main}
-    <link rel="stylesheet" href="{$static}/style/index.css">
+{extends file="../base/base.tpl"}
+{block name="body"}
     <div class="container-fluid" style="padding:0;">
         <table class="table table-hover">
             {foreach from=$projects key=key item=project}
@@ -23,4 +22,7 @@
             {/foreach}
         </table>
     </div>
+{/block}
+{block name="style"}
+    <link rel="stylesheet" href="{$static}/style/index.css">
 {/block}

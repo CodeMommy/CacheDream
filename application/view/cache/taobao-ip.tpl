@@ -1,8 +1,8 @@
 {assign var="title" value="Taobao IP Mirrors - {$title}"}
 {assign var="keywords" value="Mirrors of Taobao IP,"}
 {assign var="description" value="Mirrors of Taobao IP. "}
-{extends file='../base/base.tpl'}
-{block name=main}
+{extends file="../base/base.tpl"}
+{block name="body"}
     <div class="container-fluid">
 
         <div class="well">

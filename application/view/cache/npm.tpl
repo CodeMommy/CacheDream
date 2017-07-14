@@ -1,8 +1,8 @@
 {assign var="title" value="NPM Mirrors - {$title}"}
 {assign var="keywords" value="Mirrors of NPM,"}
 {assign var="description" value="Mirrors of NPM. "}
-{extends file='../base/base.tpl'}
-{block name=main}
+{extends file="../base/base.tpl"}
+{block name="body"}
     <div class="container-fluid">
 
         <div class="well">

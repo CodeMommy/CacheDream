@@ -1,11 +1,11 @@
 {assign var="keywords" value="About CacheDream,"}
 {assign var="description" value="About CacheDream. "}
-{extends file='../base/base.tpl'}
-{block name=main}
+{extends file="../base/base.tpl"}
+{block name="body"}
     <div class="container-fluid">
         <div class="well">
             <h2>About CacheDream</h2>
-            <p>CacheDream is an open source project that provide mirrors service for developers.</p>
+            <p>CacheDream is an open source project that provide cache service for developers.</p>
             <p>GitHub: <a target="_blank" title="GitHub" href="https://github.com/CodeMommy/CacheDream">https://github.com/CodeMommy/CacheDream</a>
             </p>
         </div>

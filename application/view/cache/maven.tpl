@@ -1,8 +1,8 @@
 {assign var="title" value="Maven Mirrors - {$title}"}
 {assign var="keywords" value="Mirrors of Maven,"}
 {assign var="description" value="Mirrors of Maven. "}
-{extends file='../base/base.tpl'}
-{block name=main}
+{extends file="../base/base.tpl"}
+{block name="body"}
     <div class="container-fluid">
 
         <div class="well">

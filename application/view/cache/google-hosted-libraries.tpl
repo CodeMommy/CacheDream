@@ -1,8 +1,8 @@
 {assign var="title" value="Google Hosted Libraries (Google AJAX) Mirrors - {$title}"}
 {assign var="keywords" value="Mirrors of Google Hosted Libraries (Google AJAX),"}
 {assign var="description" value="Mirrors of Google Hosted Libraries (Google AJAX). "}
-{extends file='../base/base.tpl'}
-{block name=main}
+{extends file="../base/base.tpl"}
+{block name="body"}
     <div class="container-fluid">
 
         <div class="well">
