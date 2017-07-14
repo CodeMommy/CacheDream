@@ -1,5 +1,9 @@
+/**
+ * CodeMommy CacheDream
+ * @author Candison November <www.kandisheng.com>
+ */
+
 * {
-    /*font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif;*/
     font-family: Helvetica, Arial, Verdana, sans-serif, "Microsoft YaHei";
 }
 
@@ -48,4 +52,10 @@ code {
 
 .img-thumbnail {
     border-radius: 0;
+}
+
+.panel, .btn {
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }

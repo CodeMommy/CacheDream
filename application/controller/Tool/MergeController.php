@@ -27,7 +27,7 @@ class MergeController extends Controller
     private $outputContent = null;
 
     /**
-     * HomeController constructor.
+     * MergeController constructor.
      */
     public function __construct()
     {

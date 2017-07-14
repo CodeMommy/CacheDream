@@ -1,30 +1,34 @@
-{assign var="title" value="Deepin Mirrors - {$title}"}
-{assign var="keywords" value="Mirrors of Deepin,"}
-{assign var="description" value="Mirrors of Deepin. "}
+{assign var="title" value="Deepin Cache - {$title}"}
+{assign var="keywords" value="Cache of Deepin,"}
+{assign var="description" value="Cache of Deepin. "}
 {extends file="../base/base.tpl"}
 {block name="body"}
     <div class="container-fluid">
-
         <div class="well">
-            <h2>Mirrors of Deepin</h2>
-            <p>深度操作系统</p>
+            <h2>Cache of Deepin</h2>
+            <p>Deepin OS</p>
             <p>
-                <a target="_blank" title="Website" href="https://www.deepin.org/">Website</a> -
-                <a target="_blank" title="Official" href="http://cdimage.deepin.com/">Official</a>
+            <div class="btn-group" role="group" aria-label="...">
+                <a class="btn btn-default" target="_blank" title="Website" href="https://www.deepin.org/">Website</a>
+                <a class="btn btn-default" target="_blank" title="Official" href="http://cdimage.deepin.com/">Official</a>
+            </div>
+
+
             </p>
         </div>
-
-        <h3>Mirrors from Official</h3>
-        <p><a target="_blank" title="Website" href="http://cdn.mirrors.shareany.com/deepin/">http://cdn.mirrors.shareany.com/deepin/</a>
-        </p>
-
-        <h3>Mirrors in Mainland China</h3>
-        <p>
-            <a target="_blank" title="Mirrors in Mainland China" href="https://www.deepin.org/mirror.html?index=iso">Mirrors in Mainland China</a>
-        </p>
-
-        <h3>Other Mirrors</h3>
-        <p><a target="_blank" title="Other Mirrors" href="https://www.deepin.org/mirror.html?index=iso">Other Mirrors</a></p>
-
+        <div class="panel panel-default">
+            <div class="panel-heading">Manual</div>
+            <div class="panel-body">
+                <p>Visit: <a target="_blank" title="http://deepin.cachedream.shareany.com/" href="http://deepin.cachedream.shareany.com/">http://deepin.cachedream.shareany.com/</a>
+                </p>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">Others</div>
+            <div class="panel-body">
+                <p><a target="_blank" title="Mainland China" href="https://www.deepin.org/mirrors/releases/">Mainland China</a></p>
+                <p><a target="_blank" title="Others" href="https://www.deepin.org/mirrors/releases/">Others</a></p>
+            </div>
+        </div>
     </div>
 {/block}

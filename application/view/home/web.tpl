@@ -15,7 +15,7 @@
             <th colspan="3">
                 <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>&nbsp;
                 <a href="{$root}" title="CacheDream">CacheDream</a> /
-                <a href="{$root}web/" title="Web Static File">Web Static File</a> /
+                <a href="{$root}web/" title="Web Static File">Web Static File</a>
 
                 {foreach from=$crumbs key=key item=value}
                     {if $key neq 'Root'}

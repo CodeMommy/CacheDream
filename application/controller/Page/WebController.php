@@ -18,7 +18,7 @@ use Base\ViewController;
 class WebController extends ViewController
 {
     /**
-     * HomeController constructor.
+     * WebController constructor.
      */
     public function __construct()
     {
@@ -131,7 +131,7 @@ class WebController extends ViewController
         }
         // 面包削
         $crumbs = array();
-        $crumbs['Root'] = Request::root() . 'web/';
+//        $crumbs['Root'] = Request::root() . 'web/';
         if (!empty($path)) {
             $temp = explode('/', $path);
             foreach ($temp as $key => $value) {
