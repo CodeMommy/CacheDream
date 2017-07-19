@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "www.cachedream.com",
+  "description": "",
+  "license": "",
+  "homepage": "",
+  "authors": [],
+  "keywords": [],
+  "main": [],
+  "ignore": [],
+  "moduleType": [],
+  "devDependencies": {},
+  "dependencies": {
+    "html5shiv": "*",
+    "normalize-css": "*",
+    "jquery": "1.*",
+    "bootstrap": "3.*"
+  }
+}

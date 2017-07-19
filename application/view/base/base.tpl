@@ -11,7 +11,8 @@
     <meta name="keywords" content="{$keywords}{$baseKeyword}">
     <meta name="description" content="{$description}{$baseDescription}">
     {block name="head"}{/block}
-    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{$static}/vendor/normalize-css/normalize.css">
+    <link rel="stylesheet" href="{$static}/vendor/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="{$static}/style/theme.css">
     {block name="style"}{/block}
     <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="{$static}/icon/favicon.ico">
@@ -19,8 +20,11 @@
 <body>
 {include file="./nav.tpl"}
 {block name="body"}{/block}
-<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
-<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<!--[if lt IE 9]>
+    <script src="{$static}/vendor/html5shiv/dist/html5shiv.min.js"></script>
+<![endif]-->
+<script src="{$static}/vendor/jquery/dist/jquery.min.js"></script>
+<script src="{$static}/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
 {block name="script"}{/block}
 {include file="./statistics.tpl"}
 </body>

@@ -5,6 +5,9 @@
 /vendor
 /composer.lock
 
+# Bower
+/public/static/vendor
+
 # Test
 /application/environment.yaml
 
