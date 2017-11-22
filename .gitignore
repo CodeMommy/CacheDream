@@ -9,7 +9,7 @@
 /public/static/vendor
 
 # Test
-/application/environment.yaml
+/application/config/environment.yaml
 
 # Cache
 /application/_runtime
